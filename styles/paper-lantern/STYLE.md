@@ -35,11 +35,11 @@ Not flat paper-cut animation (here: depth, backlight, cast shadows), not shadow 
 ## 4. Type & subtitles
 
 - **Text in the picture is paper**: titles, letters, poems and captions are cut strips inside the box, revealed by growing from an anchor edge (scale the texture repeat with the mesh so glyphs aren't squashed), with an optional small seal.
-- Chinese: an OFL brush font (e.g. Ma Shan Zheng) for titles, a running script for handwriting, Noto Serif SC for subtitles. Latin: an OFL serif (e.g. Cormorant) at similar weight.
+- Main language: an OFL brush font (e.g. Caveat Brush) for titles, a running script for handwriting, Noto Serif for subtitles. Latin: an OFL serif (e.g. Cormorant) at similar weight.
 - **Subtitles** are quiet and burned in: warm off-white serif, soft shadow, fading in just before the line. Where they sit depends on the framing:
-  - **box framing**: under the box, on the dark of the room (serif 500, ~40 px CJK / ~38 px Latin, ~74 px from the bottom);
+  - **box framing**: under the box, on the dark of the room (serif 500, ~38 px, ~74 px from the bottom);
   - **full-bleed**: on the darkest band at the bottom of the scene (the front layer), ~64 px from the bottom, never over a figure, a lit window or a light. A faint dark band behind the text is allowed when something lit has to sit there.
-  - A bilingual cue is one CJK line (~40 px) over one Latin line (~42 px). No wrapping: a line longer than ~21 CJK / ~42 Latin characters becomes two cues, split at the comma nearest the middle.
+  - A bilingual cue is one line (~40 px) over a second line (~42 px). No wrapping: a line longer than ~42 characters becomes two cues, split at the comma nearest the middle.
 - **Words that appear as paper are not subtitled**: never show the same words twice.
 - Hold ≥ max(1.8 s, speech + 0.6 s).
 
@@ -77,7 +77,7 @@ Framing: the story layer in focus, foreground and far layers soft; box edges ful
 - **Silence**: the lamp switched off — all sound but a room tone drops out, then returns with the light.
 - **Mix character**: voice compressed and forward (RMS ~−18 dB), music underneath with ~5–6 dB of ducking under speech, foley low (−24…−34 dB), peak-limited, final at −14 LUFS.
 - **Options**: a new instrument entering when the film changes place; one foley sound per light cue; a music hand-over solved backwards so a swell lands on the line that matters.
-- **Voice**: warm, a storyteller at a table, not an announcer. Proof every line with whisper; for Chinese polyphonic characters feed TTS a homophone and keep the real text for subtitles.
+- **Voice**: warm, a storyteller at a table, not an announcer. Proof every line with whisper.
 
 ## 8. Native moves
 

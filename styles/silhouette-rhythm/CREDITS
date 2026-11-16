@@ -9,8 +9,6 @@ make_fonts.py subsets them; licence texts in fonts/)
   — fonts/OFL-Anton.txt
 - Barlow Condensed Medium — The Barlow Project Authors (https://github.com/jpt/barlow),
   ofl/barlowcondensed/BarlowCondensed-Medium.ttf — fonts/OFL-BarlowCondensed.txt
-- Noto Sans SC (variable, instanced at 900 and 500) — Google / Adobe, ofl/notosanssc/NotoSansSC[wght].ttf
-  — fonts/OFL-NotoSansSC.txt
 
 SOUND
 - Score and foley are made in code (audio.py). The foley (splashes, wingbeats, drips, distant calls, a

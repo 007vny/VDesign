@@ -40,10 +40,10 @@ Not Stained Glass (no lead cames, no transmitted light), not Art Deco (no stream
 
 ## 4. Type & subtitles
 
-- *Reference:* titles and inscriptions in Uncial Antiqua (display capitals) or Grenze Gotisch (lowercase Gothic); explanatory words and subtitles in IM Fell English (roman and italic) for English and Noto Serif SC for Chinese, in brown ink, written on scrolls and plaques. One language per line.
-- **Sizes**: text meant to be read ≥ 40 px at 1080p for titles, ≥ 32 px for English subtitles, ≥ 34 px for Chinese.
-- **Reading time**: hold ≥ CJK ÷ 4.5 + other ÷ 15 + 1.5 s, and ≥ 1.8 s, from the first frame the block is complete. Text is revealed by a pen wipe, never typed letter by letter.
-- **Subtitles are a speech scroll, fixed in one place**: a vellum banderole at the bottom centre of the frame (Chinese line, English line) that unrolls when a line is spoken. It is part of the style. It never moves sideways and never changes size: one width for the whole film (set by the longest line, shorter lines centred inside it), one height, one type size. Between two close lines the scroll stays open: the old words fade, then the new ones are pen-wiped on; two lines are never seen on top of each other.
+- *Reference:* titles and inscriptions in Uncial Antiqua (display capitals) or Grenze Gotisch (lowercase Gothic); explanatory words and subtitles in IM Fell English (roman and italic) for English and Noto Serif for the main language, in brown ink, written on scrolls and plaques. One language per line.
+- **Sizes**: text meant to be read ≥ 40 px at 1080p for titles, ≥ 32 px for English subtitles, ≥ 34 px for the main language.
+- **Reading time**: hold ≥ characters ÷ 15 + 1.5 s, and ≥ 1.8 s, from the first frame the block is complete. Text is revealed by a pen wipe, never typed letter by letter.
+- **Subtitles are a speech scroll, fixed in one place**: a vellum banderole at the bottom centre of the frame (main-language line, English line) that unrolls when a line is spoken. It is part of the style. It never moves sideways and never changes size: one width for the whole film (set by the longest line, shorter lines centred inside it), one height, one type size. Between two close lines the scroll stays open: the old words fade, then the new ones are pen-wiped on; two lines are never seen on top of each other.
 - **Compose for the scroll**: the hero is kept out of the lower-centre band while a line is up (higher in frame, to one side, or the camera lowered), rather than moving the scroll.
 
 ## 5. Motion quality
@@ -104,7 +104,7 @@ Our demo opens *into the material*, out of a macro of dark leaf, uses *the touch
 - **Picket-fence mountains.** A row of spires of the same height reads as a fence. Group spires in clusters (one tall, smaller ones leaning off it), vary the gaps, and stack two or three ranges, paler and smaller behind.
 - **Stacked-box mountains.** Rectangular ledges read as buildings; spires must lean and taper, with small stair-steps on both flanks.
 - **The hero as a nun.** A hood over the face makes a small figure read as a nun or monk; keep the face and hair visible.
-- **Blackletter legibility.** Grenze capitals are hard to read; set display capitals in Uncial and keep Gothic for lowercase words. Never set Chinese or long English in blackletter.
+- **Blackletter legibility.** Grenze capitals are hard to read; set display capitals in Uncial and keep Gothic for lowercase words. Never set long text in blackletter.
 - **Fake Latin.** Use real public-domain Latin sentences or none.
 - **Infinite zoom seams.** A single texture stretched over a big push turns to mush; regenerate the leaf at the zoomed region's resolution.
 - **Render state.** Canvas state and cached patterns leak between frames; reset the context every frame and clear offscreen buffers.

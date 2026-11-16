@@ -43,10 +43,10 @@ Not Watercolor (no washes, blooms or wet edges: every tone is built from strokes
 
 ## 4. Type & subtitles
 
-- One OFL handwriting face with a pencil feel (the demo uses LXGW WenKai, whose Latin comes from Klee One). English leads; one short Chinese line may follow.
-- Labels in capitals on paper tags, at most one per shot; the Chinese at about 1.05× the English size, slightly lighter. A short pencil leader with a pale paper halo under it so it never reads as another line of the drawing.
+- One OFL handwriting face with a pencil feel (the demo uses Klee One). English leads; one short main-language line may follow.
+- Labels in capitals on paper tags, at most one per shot; the main line at about 1.05× the English size, slightly lighter. A short pencil leader with a pale paper halo under it so it never reads as another line of the drawing.
 - Titles are written in pencil on the sky, stroke by stroke, with a hand-drawn underline.
-- Subtitles (when spoken): a cream paper slip, bottom left; Chinese over English, each one line; wiped on quickly (they are read, not drawn). Keep the subject out of that corner.
+- Subtitles (when spoken): a cream paper slip, bottom left; main-language over English, each one line; wiped on quickly (they are read, not drawn). Keep the subject out of that corner.
 
 ## 5. Motion quality
 

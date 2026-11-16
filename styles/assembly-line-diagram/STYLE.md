@@ -6,7 +6,7 @@
 ## 1. Essence, and what it is not
 
 - **One line, one direction.** The subject is a process that turns one thing into another in steps. The film is a single continuous production line the cargo travels; every shot is a station on it, in order.
-- **Metaphor per station, said straight.** Each step is one machine everyone can read (a press, a sieve, a weighing scale, a crane, a loading dock, a paint booth). The plaque gives both names: the machine's in English, the real thing's in Chinese (`SIEVE | `). The humour comes from the metaphor being literal, never from cartoon faces.
+- **Metaphor per station, said straight.** Each step is one machine everyone can read (a press, a sieve, a weighing scale, a crane, a loading dock, a paint booth). The plaque gives both names: the machine's in English, the real thing's in the main language (`SIEVE | `). The humour comes from the metaphor being literal, never from cartoon faces.
 - **Colour is the legend.** Each kind of output gets one spot colour; its pipe, its parts and its legend tag carry that colour for the rest of the film, so the viewer follows a colour instead of reading a label twice.
 - **The cut-away is the frame.** Rooms sit inside a silhouette on a dark ground; the gap of dark between the rooms and the outer wall is what makes the silhouette read (a person, a machine) at every scale.
 - **Workers are scale and action.** Tiny, faceless figures, each doing one legible thing (turning a valve, holding a sign, pushing a cart, dozing). They give the factory its size and the beats their comedy.
@@ -32,13 +32,13 @@ Not Isometric Infographic (no isometric or perspective view: everything is a fla
 
 ## 4. Type & subtitles
 
-- **Three faces, three jobs** (all OFL): a condensed industrial display face for plaques, legend tags and the title (Big Shoulders Display 800–900, like letters painted on a factory wall); a grotesque for small labels, subtitles and credits (Archivo 600–800); a CJK sans for the one short Chinese line on each sign (Noto Sans SC 700, at least 34 px).
+- **Three faces, three jobs** (all OFL): a condensed industrial display face for plaques, legend tags and the title (Big Shoulders Display 800–900, like letters painted on a factory wall); a grotesque for small labels, subtitles and credits (Archivo 600–800); a sans for the one short main-language line on each sign (Noto Sans 700, at least 34 px).
 - **Plaques**: cream board, 2.6 px ink frame, 3 px corners, flat shadow; `[number circle] [ENGLISH METAPHOR]`, stuck on the room's top edge or on the machine, never on a leader line.
-- **Legend tags** hang above their line: a colour chip, then the English and Chinese name (`GLASS `).
+- **Legend tags** hang above their line: a colour chip, then the English and main-language name (`GLASS `).
 - **Leaders** (Holmes): dot → vertical → right angle → bold words, only for a moving hero, at most one per frame.
 - **At most about seven pieces of text in a frame**, two to four words each.
 - **The title is an object in the picture** (a gantry sign over the infeed, a machine's nameplate) hung on the thing it names, never in a page margin, never centred, never a header. The end card is the same object: a nameplate standing on the ground line.
-- **Subtitles are work tickets**: a cream ticket with an ink frame, a stub on its left showing the current station number (a clock when there is none), Chinese 34 px over English 28–30 px, one line each, bottom left; move them bottom right in shots where the title or the end card holds the left. Compose every shot with that corner free.
+- **Subtitles are work tickets**: a cream ticket with an ink frame, a stub on its left showing the current station number (a clock when there is none), main-language text 34 px over English 28–30 px, one line each, bottom left; move them bottom right in shots where the title or the end card holds the left. Compose every shot with that corner free.
 
 ## 5. Motion quality
 

@@ -53,11 +53,11 @@ One palette, defined once in `palette.js`; every colour on screen comes from it.
 
 - **Fredoka 600** for titles and the one big number per frame (120–168 px); its rounded shapes share the Pips' character.
 - **Inter 500/600** for explanations (24–30 px), labels and ticks; eyebrows in capitals, 15 px, letter-spacing 2 px.
-- **Noto Sans SC 500** for Chinese, at least 34 px.
+- **Noto Sans 500** for the main language, at least 34 px.
 - **Hierarchy**: each frame has exactly one largest piece of type and it is the result (a head count, a generation, a mean). Never an outline, never a drop shadow, never a header bar.
 - **Where type goes**: only on clean ground. In close-ups over the far crowd that has melted into the fog; in overhead shots on the floor beside the board edge (frame the board so a third of the picture is clean floor); in board-wide shots the picture shifts down so the top band is haze. When a frame has no clean margin, a faint board-coloured plate fading to nothing sits behind the column.
 - **Tags that travel with a Pip**: placed beside its head (offset by its projected height), its value in Fredoka, a small one-word label for its state and, when relevant, an energy bar in mint that turns spent grey when empty. Use them for the one or two individuals the story follows, never for the crowd.
-- **Subtitles** (when there is a voice): lower left on a board-coloured rounded plate at 86%, Chinese 36 px above, English 24 px below at 90% ink; one line per language, never wrapped.
+- **Subtitles** (when there is a voice): lower left on a board-coloured rounded plate at 86%, main-language text 36 px above, English 24 px below at 90% ink; one line per language, never wrapped.
 
 ## 5. Motion quality
 

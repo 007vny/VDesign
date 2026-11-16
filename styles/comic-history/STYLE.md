@@ -27,7 +27,7 @@ Not Paper Pop-up Book (no folds that stand up from a spread), not Isometric Info
 
 - Two protagonists, two colours, kept for the whole film (for example a printed blue and a printed grey). Neighbours are low-saturation print colours (sand, sage, brick, ochre) and never compete.
 - **A new patch is one step away from the printed colour** of its owner (lighter or deeper), so it reads as another piece of paper laid on the print.
-- Ink is one warm near-black for all type and lines; paper is a warm cream. One accent red is reserved for scissors handles and the Chinese line in speech bubbles.
+- Ink is one warm near-black for all type and lines; paper is a warm cream. One accent red is reserved for scissors handles and the main-language line in speech bubbles.
 - A serious panel drops saturation and value (darker, colder) instead of adding new colours.
 - Example (our demo): paper #F1E8D2, ink #2B2219, side A #6E93D6, side B #5D6672, sea #A6CCD3, red #C8463A, brass #D9B158, caption card #F5E9C4, table #7B6A57.
 
@@ -38,9 +38,9 @@ All licence-free (OFL). Roles:
 - **Place names**: an engraved small-caps serif (e.g. IM FELL English SC), tracked out, pure ink. No outline, glow or shadow.
 - **Small print** (tag captions, treaty slips, title card): the same family in roman and italic.
 - **Every number** (rule): a serif with lining figures (e.g. Old Standard TT). Old-style figures turn 1975 into "I975" and drop the 7 below the baseline. Year tags are bold lining figures with a thin printed rule under them; numbers inside other text switch to the lining face at the surrounding weight, on the same baseline, at about 0.9 of the surrounding size.
-- **Shouts** in speech bubbles: a round heavy display face (e.g. Lilita One), one English line; the Chinese line under it in a rounded hand-drawn face (e.g. ZCOOL KuaiLe) in the accent red.
-- **Where text lives** (rule): speech bubbles hold only what characters say, short, in the upper half above the speaker, tail growing from the bubble edge to the mouth. Narration goes into comic caption boxes (pale yellow card, ink border) at the bottom centre, Chinese above English, one line each, never wrapped; feet, place names and scale bars stay clear of that band. The year is a printed tag pasted at the top left of the panel; extra facts are slips pasted under it. Words on props (a passport, a pin, a title card) enter as paper: held up, stamped, dropped, slapped on.
-- On-screen Chinese at least about 34 px at 1080p. Hold each caption ≥ max(1.8 s, speech + 0.6 s).
+- **Shouts** in speech bubbles: a round heavy display face (e.g. Lilita One), one English line; the main-language line under it in a rounded hand-drawn face (e.g. Fredoka) in the accent red.
+- **Where text lives** (rule): speech bubbles hold only what characters say, short, in the upper half above the speaker, tail growing from the bubble edge to the mouth. Narration goes into comic caption boxes (pale yellow card, ink border) at the bottom centre, main-language above English, one line each, never wrapped; feet, place names and scale bars stay clear of that band. The year is a printed tag pasted at the top left of the panel; extra facts are slips pasted under it. Words on props (a passport, a pin, a title card) enter as paper: held up, stamped, dropped, slapped on.
+- On-screen text at least about 34 px at 1080p. Hold each caption ≥ max(1.8 s, speech + 0.6 s).
 
 ## 5. Motion quality
 

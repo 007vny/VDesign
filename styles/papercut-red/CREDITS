@@ -3,7 +3,6 @@ All visuals are procedurally generated in code (Canvas2D): paper textures, cut p
 
 Fonts
 - Fraunces by Undercase Type (Phaedra Charles, Flavia Zimbardi) — SIL Open Font License 1.1 (fonts/OFL-Fraunces.txt)
-- Ma Shan Zheng by Ma Shan Zheng — SIL Open Font License 1.1 (fonts/OFL-MaShanZheng.txt)
 
 Voice
 - Kokoro-82M (hexgrad), voice af_sarah — Apache License 2.0, via kokoro-onnx (MIT)

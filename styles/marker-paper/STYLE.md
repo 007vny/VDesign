@@ -34,11 +34,11 @@ Not Whiteboard Explainer: that is a glossy board with ghost marks, floating mark
 
 ## 4. Type & subtitles
 
-- Latin: Kalam (OFL) — Bold for questions, labels, answers; Regular for small notes. Chinese: LXGW Marker Gothic (OFL), one short line under an English question.
-- Sizes at full frame: question 92–112 px; answer 100–120 px; labels 40–60 px; notes 30–40 px; Chinese on the sheet ≥ 34 px. Each glyph gets a fixed tiny tilt, baseline and size drift (±1.3°, ±1.7 %, ±2 %); no stroke, outline, shadow or double print.
+- Latin: Kalam (OFL) — Bold for questions, labels, answers; Regular for small notes. Main language: Kalam (OFL), one short line under an English question.
+- Sizes at full frame: question 92–112 px; answer 100–120 px; labels 40–60 px; notes 30–40 px; main-language text on the sheet ≥ 34 px. Each glyph gets a fixed tiny tilt, baseline and size drift (±1.3°, ±1.7 %, ±2 %); no stroke, outline, shadow or double print.
 - Letters are written, not faded: questions ≈ 12 characters/s, labels 8–10/s. Written letters never boil.
 - Algebra is written in the drawing's colours, piece by piece (`v = d ÷ t`): the colour tells the viewer which line in the picture each term is.
-- **Subtitles** sit on a torn slip of the same paper laid over the bottom of the frame (straight top and bottom, torn ends, 96 % opaque, 1-px hairline, no shadow): Chinese 38 px over English 31 px at 78 % ink, one line each, never wrapped. The slip is screen space and does not move with the camera. Keep sheet content above y ≈ 940 while a slip is up. Hold ≥ max(1.8 s, speech + 0.6 s).
+- **Subtitles** sit on a torn slip of the same paper laid over the bottom of the frame (straight top and bottom, torn ends, 96 % opaque, 1-px hairline, no shadow): main-language text 38 px over English 31 px at 78 % ink, one line each, never wrapped. The slip is screen space and does not move with the camera. Keep sheet content above y ≈ 940 while a slip is up. Hold ≥ max(1.8 s, speech + 0.6 s).
 
 ## 5. Motion quality
 

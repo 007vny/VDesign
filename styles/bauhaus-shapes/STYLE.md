@@ -9,7 +9,7 @@
 - **Shapes have roles.** Circle = what grows or moves; square = what stays or weighs; triangle = slope, time, pivot. One shape keeps one meaning through a film.
 - **Point → line → plane.** The protagonist starts as a dot, draws a line by moving (its path stays on screen), and becomes a plane (a field, a disc that runs out of frame). Use this progression as the spine of an explanation.
 - **The grid is visible.** Construction lines draw first, shapes and letters land on them, then the lines retract. The grid does more each time it returns: a layout, a ruler, a tangent, a scale on a slope, the baseline of a formula.
-- **Few words, large.** One key number, one short English line, at most one short Chinese line per scene.
+- **Few words, large.** One key number, one short English line, at most one short main-language line per scene.
 
 Not Swiss Motion Graphics (there type is the material; here type is a label and the shapes carry the meaning), not Mid-century Cartoon (no characters, no faces), not Data Storytelling (no axes, ticks and legends as chrome: a ruler appears only when it measures something), not a slide deck (no headers, no centred stacks, no page turns).
 
@@ -42,11 +42,11 @@ Six colours per palette, assigned by role, never by hue:
 ## 4. Type & subtitles
 
 - **Latin and numbers**: a geometric sans (e.g. Jost, OFL, variable). Key word or number 800 with tight tracking (−2 to −6); the light companion line 300 with wide tracking (+12 to +18); reading lines 500; small labels 600–700 caps with +3 to +6 tracking.
-- **Chinese**: a sans (e.g. Noto Sans SC, OFL, subset to the characters used), 700, tracking +2 to +4, **≥ 34 px on screen** (after camera scale). One Chinese line per scene at most.
+- **Main language**: a sans (e.g. Noto Sans, OFL, subset to the characters used), 700, tracking +2 to +4, **≥ 34 px on screen** (after camera scale). One main-language line per scene at most.
 - **Type joins the shapes**: a letter can be a shape (the O of a word is the protagonist dot); a number sits on the line it measures or in the field it names.
 - **How type arrives**: letters rise out of a slot on their baseline, one block at a time; labels slide out from under an edge (clipped by it); reading lines reveal left to right. Never fades, never typewriter.
-- **Hierarchy**: the number is largest; its caption is small caps under it; the Chinese line sits under both.
-- **Subtitles**: a paper-coloured block fixed to the screen's bottom-right corner, a protagonist-colour bar on its left edge, Chinese (sans 700, 36 px) over English (sans 500, 30 px), one line each. The block never moves with the camera; compose every scene so this corner stays free.
+- **Hierarchy**: the number is largest; its caption is small caps under it; the main-language line sits under both.
+- **Subtitles**: a paper-coloured block fixed to the screen's bottom-right corner, a protagonist-colour bar on its left edge, main-language (sans 700, 36 px) over English (sans 500, 30 px), one line each. The block never moves with the camera; compose every scene so this corner stays free.
 - **Holds**: a comparison is whole in frame and still for ≥ 2.5 s before it is read out; labels ≥ characters ÷ 4.5 + 1.5 s.
 
 ## 5. Motion quality

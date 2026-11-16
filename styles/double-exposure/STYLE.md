@@ -34,9 +34,9 @@ Not Vintage Collage (no paper cut-outs, no mixed print processes), not Ukiyo-e o
 
 ## 4. Type & subtitles
 
-- Very little type. Subtitles are quiet: a serif (e.g. Noto Serif SC 600 for Chinese, Newsreader italic for English; both OFL), Chinese about 36 px over English about 28 px, one line each, on a barely visible soft shadow; no box, no outline.
+- Very little type. Subtitles are quiet: a serif (e.g. Noto Serif 600 for the main language, Newsreader italic for English; both OFL), main-language text about 36 px over English about 28 px, one line each, on a barely visible soft shadow; no box, no outline.
 - Subtitles sit in the empty part of the outside world (sky, water, snow), never across the silhouette's fill; move them per cue (bottom left, bottom right) when the animal occupies a corner.
-- Titles and credits are developed like a print: they appear blurred and sharpen, baked into the image so they take the grade, vignette and grain. A vertical Chinese title works well beside a wide horizon.
+- Titles and credits are developed like a print: they appear blurred and sharpen, baked into the image so they take the grade, vignette and grain. A vertical main-language title works well beside a wide horizon.
 - Reading time: every cue holds ≥ max(1.8 s, speech + 0.6 s); title and credit pass `readcheck.mjs`.
 
 ## 5. Motion quality

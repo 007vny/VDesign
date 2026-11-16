@@ -34,10 +34,10 @@ Not the sketchnote (dotted paper, ink fineliner that boils, grey marker + one ye
 
 ## 4. Type & subtitles
 
-- **Lettering on the page** is handwriting written stroke by stroke along each glyph's skeleton, then put through the pencil threshold. A casual marker-hand Latin (e.g. Caveat Bold for titles, Medium for notes) and a pen-hand Chinese (e.g. Long Cang) for one short line; all OFL.
-- Roles: a title (≈100 canvas px) with a mustard block under one word and a coral underline; chapter capsules (circled number + word on an offset block) when a film has chapters; notes 32–50 px with a short pencil leader to what they name. Chinese on the page ≥ 34 px on screen.
+- **Lettering on the page** is handwriting written stroke by stroke along each glyph's skeleton, then put through the pencil threshold. A casual marker-hand Latin (e.g. Caveat Bold for titles, Medium for notes) and a pen-hand main-language (e.g. Caveat) for one short line; all OFL.
+- Roles: a title (≈100 canvas px) with a mustard block under one word and a coral underline; chapter capsules (circled number + word on an offset block) when a film has chapters; notes 32–50 px with a short pencil leader to what they name. Main language on the page ≥ 34 px on screen.
 - Notes are placed in the empty space next to their object, never centred stacks, never a header bar.
-- **Subtitles** live outside the canvas, as a small paper chip: a light cream rounded strip over a darker paper block offset down-right (the colour-block grammar), Chinese on top in a readable text face (e.g. LXGW WenKai, 40 px), English below in the handwriting face (40 px), left aligned, one line each. The chip wipes in left to right like a colour block (≈0.2 s), the words fade in after; bottom left by default, bottom right when the subject sits there. Hold ≥ max(1.8 s, speech + 0.6 s).
+- **Subtitles** live outside the canvas, as a small paper chip: a light cream rounded strip over a darker paper block offset down-right (the colour-block grammar), main-language on top in a readable text face (e.g. Klee One, 40 px), English below in the handwriting face (40 px), left aligned, one line each. The chip wipes in left to right like a colour block (≈0.2 s), the words fade in after; bottom left by default, bottom right when the subject sits there. Hold ≥ max(1.8 s, speech + 0.6 s).
 
 ## 5. Motion quality
 

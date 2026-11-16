@@ -36,11 +36,11 @@ Example (our demo): ground `#F3F0EA`, neutral `#DDD8CF`, ink `#25282D`, energy `
 
 ## 4. Type & subtitles
 
-- **Roles**: a neutral grotesk for titles and labels (e.g. Inter, 600–650 weight, tight tracking); a monospace in caps with wide tracking for figure lines, readings and units (e.g. IBM Plex Mono); a CJK sans for Chinese (e.g. Noto Sans SC). All OFL, self-hosted.
+- **Roles**: a neutral grotesk for titles and labels (e.g. Inter, 600–650 weight, tight tracking); a monospace in caps with wide tracking for figure lines, readings and units (e.g. IBM Plex Mono); a sans for the main language (e.g. Noto Sans). All OFL, self-hosted.
 - **Three levels only.** Primary: a headline (60–64 px) or the label of the part being explained (name ~30 px ink + one 18 px line). Secondary: what was already explained, name ≥ 22 px mid grey, its line greys and lingers before it goes. Tertiary: the figure line (`FIG. n · …`, 13 px mono grey) and small data tags.
 - **Labels grow out of the part**: a leader draws from a dot on the part, a colour dot in the system hue pops, the text slides in. Re-project every frame; when a label would cover a part, pin it to empty space and keep the leader; when the part leaves the frame, the label goes with it.
 - **Comparisons** (ratios, before/after): the number is the primary (≥ 120 px), the two ends that produce it are secondary with leaders, all held in frame ≥ 2.5 s.
-- **Subtitles**: bottom left, no plate, Chinese ≥ 34 px over English ~22 px, one line each; compose the subject away from that corner. Chinese on screen only in subtitles and short ≥ 34 px lines; labels are English. Hold ≥ max(1.8 s, speech + 0.6 s).
+- **Subtitles**: bottom left, no plate, main-language text ≥ 34 px over English ~22 px, one line each; compose the subject away from that corner. Main language on screen only in subtitles and short ≥ 34 px lines; labels are English. Hold ≥ max(1.8 s, speech + 0.6 s).
 - **The credit** belongs in the style as a drawing's title block: ink rules, mono field names, values in the grotesk.
 
 ## 5. Motion quality

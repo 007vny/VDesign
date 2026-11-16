@@ -34,15 +34,15 @@ Not **Isometric Infographic**: that style builds a model on a floating board ove
 
 ## 4. Type & subtitles
 
-- Chinese: a serif (Noto Serif SC, 700 for keywords, 500 for particles); Latin and numerals: a book serif (Newsreader). Open-licence fonts only, subset to the characters used.
+- Main language: a serif (Noto Serif, 700 for keywords, 500 for particles); Latin and numerals: a book serif (Newsreader). Open-licence fonts only, subset to the characters used.
 - **Floor type**: big ≈ 1.5 m on the ground, small ≈ 0.8 m; read along the up-right axis (coordinates in §10). One phrase per beat; one line where the frame is tight. One accent character or number per phrase, never a single thin stroke (not a character). Characters land ≈ 0.14 s apart: fade and scale 1.22 → 1, pale ghost → ink. A painted title or a pair of numbers may scale up to ×1.6.
 - Type sits on clear ground: nothing stands on it, nothing raised stands in front of it (see §9), at least 5 % from every frame edge, and clear of the subtitle bar.
 - Signs in the world (gate signs, group signs, screens) face the camera side of the room at the iso angle, never a flat card facing the lens.
-- Reading time: every piece of world text stays fully in frame ≥ CJK/4.5 + Latin/15 + 1.5 s.
+- Reading time: every piece of world text stays fully in frame ≥ characters ÷ 15 + 1.5 s.
 
 ### Narration & subtitles
 
-When the film tells something, a narrator says it and the picture shows it at the same moment: one line per action or shot, each line starting as its action starts. A calm, quick reader in the film's language; the floor carries only that line's key word or number, never the sentence. Subtitles: one cue per narration line on a pale bar in the lower safe area, one Chinese line above (≈ 34 px) and one English line below (≈ 25 px, a translation of the whole sentence), switched hard, never two cues on screen. Numbers the viewer must remember: at most three, each said with what it compares to, and held on screen ≥ 2.5 s.
+When the film tells something, a narrator says it and the picture shows it at the same moment: one line per action or shot, each line starting as its action starts. A calm, quick reader in the film's language; the floor carries only that line's key word or number, never the sentence. Subtitles: one cue per narration line on a pale bar in the lower safe area, one main-language line above (≈ 34 px) and one English line below (≈ 25 px, a translation of the whole sentence), switched hard, never two cues on screen. Numbers the viewer must remember: at most three, each said with what it compares to, and held on screen ≥ 2.5 s.
 
 ## 5. Motion quality
 

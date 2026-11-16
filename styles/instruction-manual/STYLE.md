@@ -46,7 +46,7 @@ In a procedure that removes or changes things rather than adding them (opening, 
 ## 4. Type & subtitles
 
 - On the page only step numbers (a geometric sans, e.g. Inter 700, about 150 px at 1:1, top left of each step's area, printed on the paper and moving with it) and counts in parts boxes ("4×", Inter 600). Everything else is said by drawings and the voice.
-- **Subtitles** bottom left, left-aligned: Chinese (e.g. Noto Sans SC 500, 38 px) over English (Inter 500, 32 px, ink at about 78 %), one line each, an 8 px yellow bar on the left marking the line being spoken. No box, outline or shadow; a soft paper-coloured bed (same colour as the page) keeps them readable over line art. Keep subjects out of that corner.
+- **Subtitles** bottom left, left-aligned: main-language (e.g. Noto Sans 500, 38 px) over English (Inter 500, 32 px, ink at about 78 %), one line each, an 8 px yellow bar on the left marking the line being spoken. No box, outline or shadow; a soft paper-coloured bed (same colour as the page) keeps them readable over line art. Keep subjects out of that corner.
 - A title, if any, is printed on the page like a manual's cover or footer, never a title card over the picture.
 
 ## 5. Motion quality

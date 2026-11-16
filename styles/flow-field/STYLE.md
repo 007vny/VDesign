@@ -36,11 +36,11 @@ Example (our demo): grade ramp #262C38, #2C3A4A, #3E525C, #705C3A, #9E6828, #C46
 
 ## 4. Type & subtitles
 
-- **Roles:** a CJK serif for names and headings (e.g. Noto Serif SC, 600–700); a book serif with a true italic for English and water names (e.g. Newsreader); a monospace for readings, dates and units (e.g. IBM Plex Mono Medium). All OFL, self-hosted, CJK subset to the characters used.
+- **Roles:** a serif for names and headings (e.g. Noto Serif, 600–700); a book serif with a true italic for English and water names (e.g. Newsreader); a monospace for readings, dates and units (e.g. IBM Plex Mono Medium). All OFL, self-hosted, subset to the characters used.
 - **Text lives in the world:** names of seas and regions are printed on the ground plane (italic, letter-spaced); places are pinned with a small ring and a label; readings sit at the end of a leader from the thing measured; legends, curves and the title block are printed cartouches (paper fill, double rule).
-- Bilingual: one language per line, Chinese above English. Chinese printed on screen is at least 34 px at 1080p, Latin at least 20 px; printed text is sized in world units for the shot where it is read. A crowded table loses a column before its type shrinks.
-- **Subtitles** (when there is narration) are printed at the foot of the chart on a soft paper wash, an elliptical fade rather than a box, no outline or shadow: Chinese (CJK serif 600, ~38 px) over English (book italic, ~29 px), centred. Compose every shot so cartouches, readings and labels end above ~900 px and the wash never covers the subject.
-- Hold every readable block ≥ CJK ÷ 4.5 + other ÷ 15 + 1.5 s after it is fully in frame. A rolling reading is not reported for reading until it lands.
+- Bilingual: one language per line, main-language above English. Main language printed on screen is at least 34 px at 1080p, Latin at least 20 px; printed text is sized in world units for the shot where it is read. A crowded table loses a column before its type shrinks.
+- **Subtitles** (when there is narration) are printed at the foot of the chart on a soft paper wash, an elliptical fade rather than a box, no outline or shadow: main-language (serif 600, ~38 px) over English (book italic, ~29 px), centred. Compose every shot so cartouches, readings and labels end above ~900 px and the wash never covers the subject.
+- Hold every readable block ≥ characters ÷ 15 + 1.5 s after it is fully in frame. A rolling reading is not reported for reading until it lands.
 - Keep printed text off the strongest part of the field, or give it a paper halo.
 
 ## 5. Motion quality

@@ -38,12 +38,12 @@ Example (our demo): deep sea #0E2230, shallows #1F5A5C, sand highlight #E8D2A6, 
 
 ## 4. Type & subtitles
 
-- **A condensed grotesk** for everything Latin (e.g. Barlow Condensed, OFL): country names 600 at ~30 px with wide tracking (≈ 0.3 em); sea names 500 at ~21 px, pale blue; island and port names 15 px; data numbers 600 at 70–96 px with a small unit and a smaller source line beside or under them. A CJK sans (e.g. Noto Sans SC, OFL, subset to the characters used) for Chinese, ≥ 34 px.
+- **A condensed grotesk** for everything Latin (e.g. Barlow Condensed, OFL): country names 600 at ~30 px with wide tracking (≈ 0.3 em); sea names 500 at ~21 px, pale blue; island and port names 15 px; data numbers 600 at 70–96 px with a small unit and a smaller source line beside or under them. A sans (e.g. Noto Sans, OFL, subset to the characters used) for the main language, ≥ 34 px.
 - **Labels sit on the map** where the thing is, and fade with the camera's height: a far set (countries, seas) hands over to a near set (islands, ports). A label the frame would cut fades out instead.
 - **Measurements are drawn, then labelled**: a line grows from its middle to both ends, end ticks snap on, then the label appears beside the line, never on the data.
 - **A cross-section is labelled like an engineering drawing**: a small caption and a headline in the upper left, the exaggeration factors under them, a depth scale on the side, dashed soundings from the surface to the floor with their value.
-- **Title**: a pin on the place, a ring pulse, a leader line to the title set in empty space (sea, sky); English with one short Chinese line under it.
-- **Subtitles** (when the film is spoken): a map-legend shelf at the bottom left, an amber vertical rule, one Chinese line over one English line, never wrapped, on a soft dark gradient floor; map labels keep out of that area.
+- **Title**: a pin on the place, a ring pulse, a leader line to the title set in empty space (sea, sky); English with one short main-language line under it.
+- **Subtitles** (when the film is spoken): a map-legend shelf at the bottom left, an amber vertical rule, one main-language line over one English line, never wrapped, on a soft dark gradient floor; map labels keep out of that area.
 - **Sources**: one small line in a corner for the whole film (data, imagery licence, OSM ODbL if used, "routes schematic", the vertical exaggeration).
 
 ## 5. Motion quality

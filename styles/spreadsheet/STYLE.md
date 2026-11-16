@@ -36,9 +36,9 @@ Not a data-storytelling chart on paper (there is no paper, no pencil: the sheet 
 
 ## 4. Type & subtitles
 
-- **One grotesque for the whole interface** (Inter, OFL) and a matching CJK sans (Noto Sans SC, OFL), self-hosted as subsets.
-- Roles: cell values 11 px × zoom (texture), merged-cell labels 14–26 px × zoom, results 26–32 px × zoom (they pop 30 % on Enter), formula bar 26 px fixed (the line of the film), shell 12–13 px fixed. On-screen Chinese ≥ 34 px at the zoom it is read at.
-- **Subtitles are a cell comment**: a pale yellow note with an ink border and a red corner triangle, docked at the lower left, one Chinese line over one English line, never wrapped. Frame the subject above it (the camera's centre sits about 48 px above the viewport's centre).
+- **One grotesque for the whole interface** (Inter, OFL) and a matching sans (Noto Sans, OFL), self-hosted as subsets.
+- Roles: cell values 11 px × zoom (texture), merged-cell labels 14–26 px × zoom, results 26–32 px × zoom (they pop 30 % on Enter), formula bar 26 px fixed (the line of the film), shell 12–13 px fixed. On-screen text ≥ 34 px at the zoom it is read at.
+- **Subtitles are a cell comment**: a pale yellow note with an ink border and a red corner triangle, docked at the lower left, one main-language line over one English line, never wrapped. Frame the subject above it (the camera's centre sits about 48 px above the viewport's centre).
 - Formulas use the real syntax of a spreadsheet (`=AVERAGE(range)`, `=COUNTIF(range, "L")`), names for ranges, and colour the referenced names.
 - Hold every subtitle ≥ max(1.8 s, speech + 0.6 s); a result that a sentence depends on stays in frame until the sentence has used it.
 

@@ -32,8 +32,6 @@
 
 ## Fonts (SIL Open Font License 1.1; licence texts in demo/fonts/; downloaded by tools/fonts.py, not in git)
 - Barlow Condensed Regular / Medium / SemiBold: The Barlow Project Authors, https://github.com/google/fonts/tree/main/ofl/barlowcondensed
-- Noto Sans SC 500 / 700: Google / Adobe, https://github.com/google/fonts/tree/main/ofl/notosanssc, subset through the
-  Google Fonts CSS API to the characters in voice/subs.json, the title and the end card.
 
 ## Code
 - three.js r170 (MIT): loaded from the library's node_modules. demo/post.js is a copy of the library's core/three/post.js.

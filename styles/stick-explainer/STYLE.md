@@ -34,11 +34,11 @@ Example (our demo): paper #F3F0EA, ink #24242C, mute #9C978C, tint #E2DDD2, acce
 
 ## 4. Type & subtitles
 
-- **One geometric sans** for everything Latin (e.g. Jost, OFL): titles 600 at 84–92 px with tight tracking (−2), big numbers 600 at 44–150 px, small caps labels 500 at 20–22 px with +3 tracking. A CJK sans (e.g. Noto Sans SC, OFL, subset to the characters used) for Chinese, ≥ 34 px on screen.
+- **One geometric sans** for everything Latin (e.g. Jost, OFL): titles 600 at 84–92 px with tight tracking (−2), big numbers 600 at 44–150 px, small caps labels 500 at 20–22 px with +3 tracking. A sans (e.g. Noto Sans, OFL, subset to the characters used) for the main language, ≥ 34 px on screen.
 - **Left-aligned**, flush to a 124 px margin; no header bars, no centred stacks. The one exception is type inside a closed shape (a ring, a globe), which centres in it.
 - **Hierarchy**: one big statement or number, one line saying what it means, one small source line. A question can sit left and its answer right on the same baseline.
 - **Arrival**: type slides up 12–22 px while fading in over ~0.4 s, staggered by line; it leaves by fading. Big numbers slide further.
-- **Subtitles** belong to the page: bottom-left, a 4 px accent bar at the margin, one Chinese line (36 px, ink) over one English line (25 px, mute), no box. Keep every subject above y ≈ 920 so subtitles never cover it. Hold ≥ max(1.8 s, speech + 0.6 s); a verdict or comparison frame stays fully visible ≥ 2.5 s.
+- **Subtitles** belong to the page: bottom-left, a 4 px accent bar at the margin, one main-language line (36 px, ink) over one English line (25 px, mute), no box. Keep every subject above y ≈ 920 so subtitles never cover it. Hold ≥ max(1.8 s, speech + 0.6 s); a verdict or comparison frame stays fully visible ≥ 2.5 s.
 
 ## 5. Motion quality
 

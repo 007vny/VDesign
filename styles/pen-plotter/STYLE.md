@@ -20,7 +20,7 @@ Not Blueprint (no white-on-blue, no CAD chrome), not Data Storytelling (no scree
 - **Paper**: a canvas texture of the whole sheet (≈ 10 px/mm) plus high-resolution patches (20–40 px/mm) only where the camera is close; ink drawn with multiply blending, round caps; a slightly wetter dot where a pen lands; paper grain and a few fibres as a bump map. Going back in time redraws from scratch; going forward draws incrementally; the stroke under the pen is drawn partially.
 - **Ink**: semi-opaque, never pure black; light inks (grey) at 0.6–0.75 opacity; strokes traced twice read darker, as on paper.
 - **Machine**: rails, a moving beam, carriage, Z holder with a gripper, drag chain, a rack of capped stalls; metals with roughness 0.15–0.35, matte plastics, clearcoat pen barrels colour-coded to their ink. Cast shadows from one lamp are part of the look.
-- **Lettering**: a single-line font (one stroke per subpath) for Latin and figures; CJK as the outline of a hairline-weight font drawn with a pen wider than the stroke, so it reads as single-line; display titles as outlines filled with fine hatching.
+- **Lettering**: a single-line font (one stroke per subpath) for Latin and figures; display titles as outlines filled with fine hatching.
 - **Screen space only for the end card**; everything else is on the sheet or in the room.
 - **Post** (reference): supersampling, depth of field from a physical aperture, light ambient occlusion, a warm vignette, a little bloom on metal.
 
@@ -35,11 +35,11 @@ Example (our demo): black #16161C, sepia #763C1A, grey #686662 (70 %), red #CC22
 
 ## 4. Type & subtitles
 
-- **Roles**: single-line sans for figures and Latin labels (2.5–10 mm on the sheet; 40–50 mm for a hero number); hairline CJK labels 3–5 mm; a hatched serif for the sheet title. All OFL, subset to the characters used; letters are baked into stroke data, the page loads no font.
-- **Labels live on the sheet**: next to what they name, one language per line (Chinese line, then English line, then the value), never in screen space.
+- **Roles**: single-line sans for figures and Latin labels (2.5–10 mm on the sheet; 40–50 mm for a hero number); hairline labels 3–5 mm; a hatched serif for the sheet title. All OFL, subset to the characters used; letters are baked into stroke data, the page loads no font.
+- **Labels live on the sheet**: next to what they name, one language per line (main-language line, then English line, then the value), never in screen space.
 - **Weight by retracing**: titles and key values drawn two or three times with a 0.2–0.3 mm offset.
 - **Legibility**: anything to be read must reach ≥ 30 px cap height at 1080p when the camera holds on it; small legend text may stay unread.
-- Hold readable text ≥ CJK characters ÷ 4.5 + other characters ÷ 15 + 1.5 s, measured from when its last stroke is drawn.
+- Hold readable text ≥ characters ÷ 15 + 1.5 s, measured from when its last stroke is drawn.
 
 ## 5. Motion quality
 
@@ -97,7 +97,7 @@ Our demo opens on a pen chosen from the rack in macro, builds on *contours growi
 
 - `demo/plot.js`: `buildProgram(data)` (stroke list → machine ops with kinematics, pen changes, marks), `plotState(G, P)` (pen position, holder height, gripper, strokes done at machine time P), `drawStroke()` (ink on a canvas window, partial strokes), `RACK()`.
 - `demo/main.js`: `WARP` (film time → machine time stretches with jumps), `makeSheet()` (paper canvas + patches, incremental redraw), the gantry/holder/gripper/rack rig, the lifted-line layer (`LineSegments2`), camera per shot, `window.TEXTS` from text blocks, the end card plotted in screen space.
-- `demo/tools/textlib.py`: single-line SVG font paths, hairline CJK outlines, hatched titles, `layout()` → strokes. `make_plot.py`: marching-squares contours, hillshade hatching, route and profile, every label, the plotting order → `plot.json`. `fetch_dem.py`, `crop_dem.py`, `route.py`: NASADEM download, crop, least-cost route.
+- `demo/tools/textlib.py`: single-line SVG font paths, hairline outlines, hatched titles, `layout()` → strokes. `make_plot.py`: marching-squares contours, hillshade hatching, route and profile, every label, the plotting order → `plot.json`. `fetch_dem.py`, `crop_dem.py`, `route.py`: NASADEM download, crop, least-cost route.
 - Minimal example: a list of polylines for a bar chart → `buildProgram({strokes})` → render the sheet at `plotState(G, t)`; the machine and timing come for free.
 
 ## 11. Variation space

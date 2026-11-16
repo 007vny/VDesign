@@ -36,11 +36,11 @@ Example (our demo): paper #FBFAF6, ink #1E1E22, notes #5B5852, grey rgba(100,100
 
 ## 4. Type & subtitles
 
-- **Hand lettering only**, licence-free and self-hosted: a bold casual hand for titles, banners and keywords (e.g. Kalam Bold, 34–84 px), a thin upright hand for notes (e.g. Patrick Hand, 26–32 px), a hand-written Chinese face for Chinese (e.g. ZCOOL KuaiLe, subset to the characters used). Avoid regular kai or sans faces: next to hand lettering they read as system fonts.
+- **Hand lettering only**, licence-free and self-hosted: a bold casual hand for titles, banners and keywords (e.g. Kalam Bold, 34–84 px), a thin upright hand for notes (e.g. Patrick Hand, 26–32 px), a hand-written face for the main language (e.g. Fredoka, subset to the characters used). Avoid regular kai or sans faces: next to hand lettering they read as system fonts.
 - **Hierarchy is part of the page**: title on a banner with a yellow swash; keywords bold; notes thin and grey; numbers that matter get a yellow swash or a loop. At most four sizes on a page.
 - **Each letter has a little tilt and bob** (fixed seed), never perfectly aligned.
 - **Micro notes** (≈ 3 px on the page) may live inside an icon, readable only when the camera dives in; on the full page they read as texture.
-- **Subtitles** belong to the notebook: a paper slip at the bottom of the frame, a strip of grey washi tape on its corner, one line of Chinese (hand-written face, ≥ 40 px) over one line of English (the note hand, ≈ 31 px), never wrapped. A soft 0.2 s fade and a 6 px rise. Hold ≥ max(1.8 s, speech + 0.6 s). Frame every shot so the subject sits above the slip.
+- **Subtitles** belong to the notebook: a paper slip at the bottom of the frame, a strip of grey washi tape on its corner, one line of the main language (hand-written face, ≥ 40 px) over one line of English (the note hand, ≈ 31 px), never wrapped. A soft 0.2 s fade and a 6 px rise. Hold ≥ max(1.8 s, speech + 0.6 s). Frame every shot so the subject sits above the slip.
 - Text written on the page is timed to the words of the voice-over.
 
 ## 5. Motion quality
@@ -97,7 +97,7 @@ Our demo opens on a single icon drawn in close-up with one number written large,
 - **Small text in the final frame**: plan the poster first; no note below ≈ 26 px at the final zoom.
 - **Empty frames during camera moves**: a pan that lands on paper before the pen arrives. Start the words before the move, or keep finished work in frame.
 - **Thick lines when diving**: line widths and wobble are in page units; inside a dive, draw micro notes with proportionally thinner lines and smaller wobble.
-- **System-looking Chinese**: regular kai or sans faces next to hand lettering read as fallback fonts.
+- **System-looking type**: regular kai or sans faces next to hand lettering read as fallback fonts.
 
 ## 10. Engine
 

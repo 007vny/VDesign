@@ -9,7 +9,7 @@
 - **Memphis flat colour.** Saturated primaries plus pastels, flat fills, no gradients; a deep-indigo ink outline; small patterns tiled on surfaces (dots, stripes, zigzags, terrazzo flecks, halftone).
 - **The eye of a model-maker.** High three-quarter, top-down or cutaway views. The film always looks at a *place*, never at a person.
 - **Small motions everywhere.** Water, wind in trees, cloud shadows, birds, boats, walkers, lights coming on one by one. The place is alive because of them, not because of a protagonist.
-- **Three lines of type under the frame**: title / one sentence / small data, under three Memphis marks (a yellow dot, a pink triangle, a blue zigzag). Bilingual words take two of them, one Chinese line and one English line (§4).
+- **Three lines of type under the frame**: title / one sentence / small data, under three Memphis marks (a yellow dot, a pink triangle, a blue zigzag). Bilingual words take two of them, one main-language line and one English line (§4).
 
 Not character animation: nobody acts. Code-made faces, gestures, getting in and out of cars always look stiff, so this style never shows them. Not an isometric infographic (that one is cool and diagrammatic; this one has weather, seasons and sound). Not tilt-shift (no photograph, no depth of field: everything is flat and sharp). Not low-poly (no faceted shading or plastic highlights: flat fills, outlines and patterns do the work).
 
@@ -39,13 +39,13 @@ Not character animation: nobody acts. Code-made faces, gestures, getting in and 
 
 ## 4. Type & subtitles
 
-- **Three centred lines under the frame**: line 1, the title, Chinese and English, weight 600, about 25 px, dark; line 2, one sentence, weight 400, about 18 px, grey; line 3, small data (time, solar term, place, coordinates) in a monospace, about 15 px, light grey. Line 3 may change with the picture.
-- **Line 3 is optional, and so is line 2.** An empty line leaves its place empty; the others never move up to fill it. With a voice, or when the film's words are bilingual, the type is **one Chinese line and one English line**: line 1 in Chinese (weight 600, about 25 px, dark) and line 2 in English (weight 400, about 18 px, grey), each on one line, never wrapped; line 3 stays empty unless there is small data to show. In this layout both lines change together, as one pair.
+- **Three centred lines under the frame**: line 1, the title, main language and English, weight 600, about 25 px, dark; line 2, one sentence, weight 400, about 18 px, grey; line 3, small data (time, solar term, place, coordinates) in a monospace, about 15 px, light grey. Line 3 may change with the picture.
+- **Line 3 is optional, and so is line 2.** An empty line leaves its place empty; the others never move up to fill it. With a voice, or when the film's words are bilingual, the type is **one main-language line and one English line**: line 1 in the main language (weight 600, about 25 px, dark) and line 2 in English (weight 400, about 18 px, grey), each on one line, never wrapped; line 3 stays empty unless there is small data to show. In this layout both lines change together, as one pair.
 - The lines fade in and out with the frame and never move. When a line changes, the old one fades away and the new one fades in; line 1 stays (in the bilingual layout, both lines cross-fade, about 0.4 s out and 0.4 s in). The three marks stay at full strength through every change: only the words fade.
-- Typefaces: Inter Tight for Latin, Noto Sans SC for Chinese, IBM Plex Mono for data (all OFL).
-- Usually no voice: the type is the narration. With a voice, use plain bottom subtitles, one Chinese and one English line, no styled caption boxes.
+- Typefaces: Inter Tight for Latin, Noto Sans for the main language, IBM Plex Mono for data (all OFL).
+- Usually no voice: the type is the narration. With a voice, use plain bottom subtitles, one main-language and one English line, no styled caption boxes.
 - Hold every line ≥ max(1.8 s, reading time + 0.6 s).
-- **Callouts** for explainers: a rounded pill with a leader line and a dot, Chinese main and English small, popping out of the model with a back-ease and fading when done.
+- **Callouts** for explainers: a rounded pill with a leader line and a dot, main line large and English small, popping out of the model with a back-ease and fading when done.
 
 ## 5. Motion quality
 

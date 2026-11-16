@@ -33,10 +33,10 @@ Example (our demo): palette stops #000008 #120554 #4D0894 #991294 #DB3352 #FA781
 
 ## 4. Type & subtitles
 
-- **Roles**: a monospace for readings, scale ends, time stamp and measurement names (IBM Plex Mono, 22–40 px); a sans for labels (Noto Sans SC for Chinese 24–40 px, Inter for English 20–32 px). OFL, self-hosted, CJK subset to the characters used.
+- **Roles**: a monospace for readings, scale ends, time stamp and measurement names (IBM Plex Mono, 22–40 px); a sans for labels (Noto Sans for the main language 24–40 px, Inter for English 20–32 px). OFL, self-hosted, subset to the characters used.
 - **Labels belong to the camera or to the world**: a spot meter's value sits beside its crosshair; a label hangs on a leader line to the thing; the scale and the time stamp sit at the frame edges. No title bars, no centred captions.
 - Bilingual labels are two lines, one language each. Numbers keep one decimal and flicker in the last digit at the meter's refresh rate; the value registered for reading time is the measured median.
-- Nothing below 20 px at 1080p. Each label holds ≥ max(1.5 s, characters ÷ reading speed + 1.5 s) (CJK 4.5 chars/s, Latin 15 chars/s), measured from the moment it is fully on screen.
+- Nothing below 20 px at 1080p. Each label holds ≥ max(1.5 s, characters ÷ reading speed + 1.5 s) (15 characters per second), measured from the moment it is fully on screen.
 
 ## 5. Motion quality
 

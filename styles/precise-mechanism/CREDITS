@@ -2,7 +2,6 @@ Color-Coded Mechanism — demo Three Systems Keep the Time
 
 Fonts (SIL Open Font License 1.1; licence text in fonts/OFL.md; not in git, build.sh fetches them when missing)
 - Inter (variable) — Rasmus Andersson — https://github.com/rsms/inter (Google Fonts: ofl/inter)
-- Noto Sans SC (variable) — Google / Adobe — https://github.com/google/fonts/tree/main/ofl/notosanssc
 - IBM Plex Mono Medium — IBM — https://github.com/IBM/plex (Google Fonts: ofl/ibmplexmono)
 
 Music samples (CC0 1.0; the library's sample packs, sh tools/fetch.sh instruments vcsl / vsco2ce)

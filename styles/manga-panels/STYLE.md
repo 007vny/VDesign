@@ -37,12 +37,12 @@ One spot colour (by default a vermilion; a user's brand colour can take its plac
 ## 4. Type & lettering
 
 - **Sound effects** (katakana, Dela Gothic One): per letter — 1.6–1.9× → 1× slam with overshoot, 0.03–0.09 s stagger, ±10° random rotation, small offsets, three layers (wide ink stroke ×0.34, paper stroke ×0.27, ink fill), boiling ±1.5 px at 12 fps. Small kana at 0.62× and dropped. Dela's reads as at small sizes: use another word (rather than for a hit).
-- **Narration boxes** (Noto Serif SC 900, vertical, right column first, a space starts a new column): paper box, 5 px ink border, offset solid ink shadow, characters ink in one after another. Inner voice, scene-setting, verse lyrics.
-- **Hand-lettered shouts** (Noto Sans SC 900, 110–190 px): the same slam engine as the sound effects, horizontal or vertical. Choruses, slogans, anything shouted.
-- **Speech balloons** (Noto Serif SC 900, vertical): ellipse with a tail toward the speaker's mouth; full-width comma becomes the vertical form.
-- **Small Latin lines** (Barlow Condensed 800, slanted; 600 for the smallest): one English line under a Chinese title, brand line or colophon.
+- **Narration boxes** (Noto Serif 900, vertical, right column first, a space starts a new column): paper box, 5 px ink border, offset solid ink shadow, characters ink in one after another. Inner voice, scene-setting, verse lyrics.
+- **Hand-lettered shouts** (Noto Sans 900, 110–190 px): the same slam engine as the sound effects, horizontal or vertical. Choruses, slogans, anything shouted.
+- **Speech balloons** (Noto Serif 900, vertical): ellipse with a tail toward the speaker's mouth; full-width comma becomes the vertical form.
+- **Small Latin lines** (Barlow Condensed 800, slanted; 600 for the smallest): one English line under a main-language title, brand line or colophon.
 - **A film in a language written in rows** (English, for example): narration boxes and speech balloons are set in horizontal lines, in a heavy serif of that script; shouts in a heavy sans. Boxes, borders, shadows, strokes, the slam and the timings stay as above, and so do the katakana sound effects.
-- All Chinese and Japanese fonts are subset to the glyphs used (`tools/fonts.sh`); load every weight before the first frame.
+- All main-language and Japanese fonts are subset to the glyphs used (`tools/fonts.sh`); load every weight before the first frame.
 
 ## 5. Motion quality
 

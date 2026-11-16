@@ -35,8 +35,8 @@ Reference: how our engine does it (`demo/js/base.js`); another stack is fine if 
 ## 4. Type & subtitles
 
 - Words belong to the drawing: a depth figure beside a scratched ruler, a title cut into the dark. No boxes, no outlines, no drop shadows.
-- Faces (all OFL): a heavy geometric sans filled with diagonal cuts for titles (Jost 800), a sturdy mono for numbers (IBM Plex Mono SemiBold), a marker-like Chinese face (LXGW Marker Gothic). These are references; any face with the same roles works.
-- Subtitles sit low left, Chinese above English, cream on the black ground, revealed left to right in about 0.3 s. Cap height ≥ 30 px for anything the viewer must read.
+- Faces (all OFL): a heavy geometric sans filled with diagonal cuts for titles (Jost 800), a sturdy mono for numbers (IBM Plex Mono SemiBold), a marker-like main-language face (Kalam). These are references; any face with the same roles works.
+- Subtitles sit low left, main-language above English, cream on the black ground, revealed left to right in about 0.3 s. Cap height ≥ 30 px for anything the viewer must read.
 
 ## 5. Motion quality
 

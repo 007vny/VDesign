@@ -38,11 +38,11 @@ Not Sci-fi Hologram HUD (no invented glowing chrome: the console is plain, funct
 Two voices in type, never mixed:
 
 - **Machine voice**: a monospace (e.g. IBM Plex Mono, OFL), 15–22 px for chrome, 56–64 px for the clock and counter, about 32 px for the status word. **English only**, upper case for states and keys, as a real console would print it: legend (ORGANIC / MIXED / METAL / OPAQUE), status (SCANNING, REVIEW, CLEAR, BAG CHECK, UNCLEAR, STANDBY), view labels, the CT header.
-- **Operator voice** (labels, rules, verdicts): a CJK sans (e.g. Noto Sans SC, OFL, subset to the characters used) at **34–44 px** on screen, bold, with the English line under it in the monospace at 17–22 px. One line per language. A label that cannot hold 34 px Chinese is written in the machine voice instead (English only).
+- **Operator voice** (labels, rules, verdicts): a sans (e.g. Noto Sans, OFL, subset to the characters used) at **34–44 px** on screen, bold, with the English line under it in the monospace at 17–22 px. One line per language. A label that cannot hold 34 px main-language is written in the machine voice instead (English only).
 - Labels attach to the object with a leader line or sit in a panel beside the image; verdicts are stamps (tick or cross, word, English line) that land after the hold.
 - Every image carries its stamp (bag number, time): it keeps the clock visible in tight shots.
 - Nothing the viewer must read under 18 px at 1080p; legends and chrome may go to 15 px. Sizes are on screen: when the outside camera pulls back (scale < 1), anything the viewer must read waits for the push in, or is set larger.
-- **Subtitles** (when there is a voice) are the operator's log: a dark plate fixed to the frame's bottom left (not to the console, so it never moves with the camera), a thin white bar on its left edge, Chinese 36 px over English 24 px in the monospace, one line each. Keep panels, verdict stamps and judged objects out of that corner: panels sit top right of the image, the CT verdict bottom right. Cues less than about 0.6 s apart share one plate (the text changes, the plate resizes), so it never blinks off and on between lines.
+- **Subtitles** (when there is a voice) are the operator's log: a dark plate fixed to the frame's bottom left (not to the console, so it never moves with the camera), a thin white bar on its left edge, main-language text 36 px over English 24 px in the monospace, one line each. Keep panels, verdict stamps and judged objects out of that corner: panels sit top right of the image, the CT verdict bottom right. Cues less than about 0.6 s apart share one plate (the text changes, the plate resizes), so it never blinks off and on between lines.
 - Holds: a judged frame shows object, rule, number and leaves 2.5 s before the verdict; verdicts stay ≥ 1.5 s; labels ≥ characters ÷ 4.5 + 1.5 s.
 
 ## 5. Motion quality
@@ -110,7 +110,7 @@ Our demo opens on the machine's self-test and *the scan curtain* from the wide b
 - **Facts.** Screening rules differ between domestic and international flights and between airlines; quote the exact rule for the route you show, keep FACTS.md with source URLs and wording.
 - **Render state.** Set a render target's viewport and scissor before binding it; a stale viewport squashes the image and makes frames depend on render order.
 - **Brands.** No manufacturer names, logos or real products in the console or on labels.
-- **Chrome in two languages.** Bilingual chrome (a Chinese legend at 20 px) drops under the readable size and clutters the console; keep chrome English and give Chinese only to the operator's labels, at full size.
+- **Chrome in two languages.** Bilingual chrome (a main-language legend at 20 px) drops under the readable size and clutters the console; keep chrome English and give main-language only to the operator's labels, at full size.
 
 ## 10. Engine
 

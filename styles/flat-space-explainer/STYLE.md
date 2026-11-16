@@ -34,10 +34,10 @@ Example (our demo): night #1D2052 with rings #252A63, #30367C; blue #4D7CFE / #3
 
 ## 4. Type & subtitles
 
-- **Roles**: a geometric sans (e.g. Jost, OFL): titles 96–132 px weight 700 with tight tracking; labels 26–34 px weight 600; small caps tags 16–18 px weight 600 with letter-spacing 3 in mist or sun. One short Chinese line where needed in a CJK sans (e.g. Noto Sans SC Bold, subset), ≥ 34 px.
+- **Roles**: a geometric sans (e.g. Jost, OFL): titles 96–132 px weight 700 with tight tracking; labels 26–34 px weight 600; small caps tags 16–18 px weight 600 with letter-spacing 3 in mist or sun. One short main-language line where needed in a sans (e.g. Noto Sans Bold, subset), ≥ 34 px.
 - **Two ways in**: big words rise from below their own baseline through a clip (spring, small overshoot); labels wipe left to right. Exits run the same moves backwards. No fades.
 - **Labels**: a small-caps tag above, one cream line below, attached by a 2.5 px leader. One label or one big number per screen; comparisons go in the voice, the screen gives a name and a number.
-- **Subtitles** sit bottom left: one Chinese line (36 px, cream) over one English line (26 px, mist), a 5 px sun bar at the left, rising in over 0.16 s. On a light ground they sit on an opaque night plate. Never wrapped; a long sentence becomes two cues. Hold ≥ max(1.8 s, speech + 0.6 s).
+- **Subtitles** sit bottom left: one main-language line (36 px, cream) over one English line (26 px, mist), a 5 px sun bar at the left, rising in over 0.16 s. On a light ground they sit on an opaque night plate. Never wrapped; a long sentence becomes two cues. Hold ≥ max(1.8 s, speech + 0.6 s).
 - The corner instrument (field-of-view label, number, ribbon) and the subtitle band are kept clear of subjects.
 
 ## 5. Motion quality

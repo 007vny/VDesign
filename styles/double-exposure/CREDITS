@@ -43,9 +43,6 @@ Samples (CC0): VS Chamber Orchestra: Community Edition (Versilian Studios), Vers
   bubbles, whale call, breach and the wind, river and sea beds are procedural (demo/audio.py, core/audio/sfx.py).
 
 ## Fonts (SIL Open Font License 1.1; licence texts in demo/fonts/)
-- Noto Serif SC 600: Google / Adobe, https://github.com/google/fonts/tree/main/ofl/notoserifsc
-  A static 600 instance subset to the characters in index.html (make_fonts.py), from the variable font
-  NotoSerifSC[wght].ttf downloaded by build.sh into demo/fonts/src/.
 - Newsreader and Newsreader Italic (variable): Production Type, https://github.com/google/fonts/tree/main/ofl/newsreader
 
 ## Code

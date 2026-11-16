@@ -34,11 +34,11 @@ Not woodcut (flat printed blocks, a mostly static camera, one block per image). 
 
 ## 4. Type & subtitles
 
-- One serif typeface, bold (e.g. Noto Serif SC, OFL), subset to the characters used. Chinese and English each on their own line.
+- One serif typeface, bold (e.g. Noto Serif, OFL), subset to the characters used. main language and English each on their own line.
 - **Type lives in the world:** carved into a board, cast on a plate, printed on a pasted notice, or cut as a plate of type into the sky. Words in the world carry only keywords and numbers; no centred title cards, no headers.
-- Sizes at 1080p: at most three sizes per frame; nothing smaller than 28 px for Chinese or 22 px for Latin; every word at least 5% inside the frame. Left-aligned blocks, aligned by optical edge.
+- Sizes at 1080p: at most three sizes per frame; nothing smaller than 28 px for the main language or 22 px for Latin; every word at least 5% inside the frame. Left-aligned blocks, aligned by optical edge.
 - Words appear the way the medium makes them: cut left to right with chips at the knife, pressed by a seal, revealed under a peeled sheet.
-- Reading time: hold every piece ≥ max(1.8 s, characters ÷ 4.5 for CJK + characters ÷ 15 for Latin + 1.5 s); judged comparisons hold still ≥ 2.5 s before the verdict lands.
+- Reading time: hold every piece ≥ max(1.8 s, characters ÷ 15 + 1.5 s); judged comparisons hold still ≥ 2.5 s before the verdict lands.
 
 ### Narration & subtitles
 
@@ -46,7 +46,7 @@ When the film tells a story with a narrator:
 
 - **Speech and picture move together.** Each line is spoken while the shot shows what it names; the long take keeps going under the voice, and the silent stretches (a hold to read, a pass through a structure, a flock taking off) are left without words.
 - **Words in the world carry only keywords and numbers** (a count on a board, a date on a seal). The sentence is in the voice and the subtitle, not on the props.
-- **One subtitle bar per spoken line**, at the bottom inside the 5% safe area: one Chinese line above one English line, never wrapped, in the film's serif, paper letters on an ink band about 80% opaque (thinner bands vanish over paper). It appears with the line and leaves with it; keep the subject of each shot above it.
+- **One subtitle bar per spoken line**, at the bottom inside the 5% safe area: one main-language line above one English line, never wrapped, in the film's serif, paper letters on an ink band about 80% opaque (thinner bands vanish over paper). It appears with the line and leaves with it; keep the subject of each shot above it.
 - A second-language version swaps only the voice: the same picture, the same bilingual bar, each line starting at the same moment, finished before the next one starts.
 
 ## 5. Motion quality

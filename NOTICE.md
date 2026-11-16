@@ -24,6 +24,8 @@ This is not the official repository and is not endorsed by Lemomo (LemoLab).
 
 **Edited.** In the files that remain, Chinese words were removed from sentences, comments and tables, and the sentences tidied. Every edited Markdown file says so in its footer. No drawing, rendering or audio code was changed apart from comments, with these exceptions: `core/audio/sampler.py` (Chinese aliases for instrument families removed), `core/tts/tts.py` (a character range written with escapes), `core/tts/asr_check.py` (as above), and the installer.
 
+**Reworded.** In the style prompts, sentences that set a Chinese line above an English one now speak of a main-language line and an optional second line. Reading-time rules use the Latin rate only, Chinese font examples are replaced with Latin ones (for example Noto Sans for Noto Sans SC), and the passages on drawing Chinese characters by hand in Circuit Board, Neon Tubes, 1-bit Dither and Pen Plotter are removed. Credits for Chinese fonts that no longer appear in anything kept here are removed from the `CREDITS` files.
+
 **Added.** `README.md`, `NOTICE.md`, `SECURITY.md`, the `atelier/` collection, `docs/index.html` (with resized copies of the kept posters in `docs/posters/`), and the skill and plugin texts. `styles/README.md` and the style list in `AGENTS.md` were regenerated in English.
 
 ## What still comes from the original project

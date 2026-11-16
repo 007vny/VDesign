@@ -21,7 +21,6 @@ Sound effects
 
 Fonts (SIL Open Font License 1.1; fetched into fonts/ by tools/fonts.py, licence texts alongside)
 - Cormorant Garamond — Christian Thalmann (Catharsis Fonts), https://github.com/CatharsisFonts/Cormorant
-- Noto Serif SC (subset to the characters the film uses) — Adobe / Google, https://github.com/notofonts/noto-cjk
 
 Picture engine
 - three.js r170 (MIT), loaded from the library's node_modules.

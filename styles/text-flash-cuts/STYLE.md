@@ -33,9 +33,9 @@ Secondary values only for depth inside geometry: `#d8d4cc`, `#26262a`, `#1b1b1f`
 
 ## 4. Type
 
-- Cards and titles: **Noto Serif SC 900** (heavy Mincho feel, OFL). Single glyphs 700–1100 px, allowed to bleed off the frame on flash cards; dialogue columns 120–170 px, never bleeding.
-- Small vertical notes (episode numbers, speaker tags, counters): Noto Sans SC 900, 40–64 px.
-- English: one line of **Cormorant Garamond Italic 600**, about a quarter of the Chinese size, grey on black or white, black on red.
+- Cards and titles: **Noto Serif 900** (heavy Mincho feel, OFL). Single glyphs 700–1100 px, allowed to bleed off the frame on flash cards; dialogue columns 120–170 px, never bleeding.
+- Small vertical notes (episode numbers, speaker tags, counters): Noto Sans 900, 40–64 px.
+- English: one line of **Cormorant Garamond Italic 600**, about a quarter of the main-language size, grey on black or white, black on red.
 - Vertical punctuation: . and , move to the top right of their cell; ? stays upright.
 - Never centred on the frame. Type sits in a corner, on a rail at the edge, on an object (a letter), or bleeds.
 - Two classes of text: **flash cards** (2–9 frames, deliberately below reading time, only ever repeat or fragment words that are also shown in full) and **held lines** (dialogue, a letter, the end card), each held for its full reading time and checked with `readcheck.mjs`.

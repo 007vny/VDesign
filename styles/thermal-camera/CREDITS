@@ -16,9 +16,6 @@ Thermal Camera demo · A Building on a Winter Night · third-party assets and so
 ## Fonts (SIL Open Font License 1.1; licence texts in demo/fonts/)
 - IBM Plex Mono Regular / Medium (readings, scale ends, time stamp): IBM, https://github.com/google/fonts/tree/main/ofl/ibmplexmono
 - Inter (English labels): Rasmus Andersson, https://github.com/google/fonts/tree/main/ofl/inter (variable, Inter[opsz,wght].ttf)
-- Noto Sans SC 500 / 700 (Chinese labels and titles): Google / Adobe, https://github.com/google/fonts/tree/main/ofl/notosanssc
-  Static instances subset to the characters in src/*.js (make_fonts.py) from the variable font
-  NotoSansSC[wght].ttf, downloaded by build.sh into demo/fonts/src/.
 
 ## Code
 - three.js r170 (MIT), with BufferGeometryUtils, RoundedBoxGeometry and the MarchingCubes lookup tables from its

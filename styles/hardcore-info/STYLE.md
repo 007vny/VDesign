@@ -38,11 +38,11 @@ It is not an exploded teardown (dark studio, physically based light, a photograp
 
 ## 4. Type & subtitles
 
-- Two families, both licence-free: a technical grotesque for names and titles (IBM Plex Sans SemiBold in our demo, uppercase names with +1.4 px tracking) and its monospaced sibling for specs, units and footnotes (IBM Plex Mono). Chinese in a matching sans (Noto Sans SC), on screen at ≥ 34 px.
+- Two families, both licence-free: a technical grotesque for names and titles (IBM Plex Sans SemiBold in our demo, uppercase names with +1.4 px tracking) and its monospaced sibling for specs, units and footnotes (IBM Plex Mono). Main language in a matching sans (Noto Sans), on screen at ≥ 34 px.
 - Roles: titles 54–64 px with one accent word; part names 21 px; spec lines 15 px mono; footnotes 12 px mono with wide tracking; data labels on rulers 20–26 px mono.
 - **Label anatomy**: anchor dot on the part → a straight leader → the name → at most one spec line in mono (drop the spec when the label cannot stay long enough to read it). A label appears only when its part is the subject and wipes out before the camera leaves it.
 - **Appearance**: text only ever writes on left to right and wipes off left to right, like a plotter. No fades, no bounces, no shadows or outlines on type.
-- **Subtitles**: bottom-left, one Chinese line and one English line, on a paper-coloured plate with a thin ink rule on the left; the subject is composed above the subtitle band. Hold each cue ≥ max(1.8 s, speech + 0.6 s).
+- **Subtitles**: bottom-left, one main-language line and one English line, on a paper-coloured plate with a thin ink rule on the left; the subject is composed above the subtitle band. Hold each cue ≥ max(1.8 s, speech + 0.6 s).
 - Big statements (a question, an answer, the last line) sit in one column on the left while the object stays right, so the start and the end of a film rhyme.
 
 ## 5. Motion quality

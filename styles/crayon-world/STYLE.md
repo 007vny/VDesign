@@ -35,9 +35,9 @@ Not **Crayon Picture Book**: that style is a flat page drawn while you watch, th
 
 - Words are **printed on the page**: a handwriting face in the outline colour, written in a character at a time, sitting on blank paper. Never a speech bubble, a box or a plate.
 - Blank paper is made: leave part of the picture uncoloured (only a strip of sky) and put the words there, clear of what the eye follows. Thin the colour out just before the words arrive; blank paper held empty reads as a mistake.
-- Bilingual: the Chinese line, then the English line a size smaller underneath, written in after it. Example faces (OFL): Long Cang for Chinese at 110–140 px, Patrick Hand for Latin at 50–64 px.
+- Bilingual: the main-language line, then the English line a size smaller underneath, written in after it. Example faces (OFL): Caveat for the main language at 110–140 px, Patrick Hand for Latin at 50–64 px.
 - A wordless film is native; a narrated one prints its lines the same way, at the bottom of the frame, on a paper patch the scene leaves free.
-- Reading time: every block stays fully in frame ≥ max(1.8 s, CJK ÷ 4.5 + other ÷ 15 + 1.5 s) (readcheck).
+- Reading time: every block stays fully in frame ≥ max(1.8 s, characters ÷ 15 + 1.5 s) (readcheck).
 
 ## 5. Motion quality
 

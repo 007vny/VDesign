@@ -13,7 +13,6 @@ Scratch Film demo · The Night Climb · third-party assets and sources
   with core/audio/sfx.py.
 
 ## Fonts (SIL Open Font License 1.1; licence texts in demo/fonts/)
-- LXGW Marker Gothic: The LXGW Marker Gothic Project Authors, https: github.com/google/fonts/tree/main/ofl/lxgwmarkergothic
 - Jost: Owen Earl (indestructible type*), https://github.com/google/fonts/tree/main/ofl/jost
 - IBM Plex Mono SemiBold: IBM, https://github.com/google/fonts/tree/main/ofl/ibmplexmono
   make_fonts.py downloads them into demo/fonts/src/ and subsets them to the characters used (woff2).

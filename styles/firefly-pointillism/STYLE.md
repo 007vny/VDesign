@@ -43,8 +43,8 @@ Linear colours times brightness; the screen shows a mid tone and a burnt core fo
 
 ## 4. Type & subtitles
 
-- **Titles and credits are made of points**: the text is rendered to a mask and sampled on a jittered grid (not randomly), one particle per sample. A 140–170 px CJK title needs about 3,400 points, a 30–40 px Latin line about 800; sparser and the strokes stop reading. Once landed, the text holds absolutely still (sub-pixel shimmer only), with a short flash on landing. Place it in empty sky, left-aligned, never centred over a character, never on a plate.
-- **Subtitles** are plain type burned in (legibility first), a soft brush-like CJK face such as LXGW WenKai (OFL): Chinese ≈ 40 px in warm cream, English ≈ 28 px a little dimmer, centred at the bottom, no outline, no plate, only a faint glow of the same colour. Keep every subject above the subtitle band.
+- **Titles and credits are made of points**: the text is rendered to a mask and sampled on a jittered grid (not randomly), one particle per sample. A 140–170 px title needs about 3,400 points, a 30–40 px line about 800; sparser and the strokes stop reading. Once landed, the text holds absolutely still (sub-pixel shimmer only), with a short flash on landing. Place it in empty sky, left-aligned, never centred over a character, never on a plate.
+- **Subtitles** are plain type burned in (legibility first), a soft hand-written face such as Klee One (OFL): main-language text ≈ 40 px in warm cream, English ≈ 28 px a little dimmer, centred at the bottom, no outline, no plate, only a faint glow of the same colour. Keep every subject above the subtitle band.
 
 ## 5. Motion quality
 

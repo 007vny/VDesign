@@ -37,10 +37,10 @@ Not LiDAR Survey (no point clouds, no measured scan data; the scan is a light, t
 
 - **Title**: a thin humanist sans (IBM Plex Sans 200 in the demo), 50–70 px, sentence case, never centred, no shadow or outline.
 - **Readings and labels**: a light monospace (JetBrains Mono 300), 14–17 px, all caps, tracked +1.2 to +2.4 px; big numbers (a time, an angle, a ratio) in the thin sans at 50–150 px.
-- **Chinese** (Noto Sans SC Light): one short line under the title or as a section label, ≥ 34 px.
+- **Main language** (Noto Sans Light): one short line under the title or as a section label, ≥ 34 px.
 - **Every text is written by a scan bar**: a clip that grows left to right with a 1 px bright edge leading. No typewriter, no fade-in, no pop.
 - Labels sit next to their object with a thin leader line; numbers sit on the instrument (an arc, a trace, a track). Never a header strip, never a centred stack.
-- **Subtitles**: bottom left, one Chinese line (34 px) over one English line (≈ 23 px), joined by a 1 px echo-coloured vertical hairline; a soft dark patch behind them on night frames only. Hold ≥ max(1.8 s, speech + 0.6 s).
+- **Subtitles**: bottom left, one main-language line (34 px) over one English line (≈ 23 px), joined by a 1 px echo-coloured vertical hairline; a soft dark patch behind them on night frames only. Hold ≥ max(1.8 s, speech + 0.6 s).
 - Small text never sits on a busy picture without a plate: a dark rounded plate under a readout that overlaps an image.
 
 ## 5. Motion quality

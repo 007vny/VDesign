@@ -33,11 +33,11 @@ Not Halftone Dossier (that one is a case file of documents; here the printed mat
 ## 4. Type & subtitles
 
 - All type is printed on its own slip of paper and placed like any other piece: no type floats on the frame, no outlines or drop shadows on letters, only the slip's shadow.
-- Faces with a period feel, all OFL: an old-style serif (e.g. IM FELL English roman, italic and small caps) for titles and labels; a typewriter (e.g. Courier Prime) for slips, receipts and data; a CJK serif (e.g. Noto Serif SC, subset) for Chinese.
+- Faces with a period feel, all OFL: an old-style serif (e.g. IM FELL English roman, italic and small caps) for titles and labels; a typewriter (e.g. Courier Prime) for slips, receipts and data; a serif (e.g. Noto Serif, subset) for the main language.
 - **Ransom letters** for a hero word or number: one slip per character, rotating fonts, papers and inks, slapped in one per eighth note. Old-style serifs have old-style figures (1 like I, 0 like o): digits come from a lining face.
 - **Typewriter slips** type out letter by letter on a blank slip (monospace advance), with a key sound per letter.
-- On screen: Chinese ≥ 34 px, English labels ≥ 24 px, data numbers large enough to read at the widest framing they appear in.
-- **Subtitles** (when there is a voice): two slips stacked at the bottom left, a black newsprint slip with the Chinese line (about 40 px) over a cream typewriter slip with the English line (about 30 px) typing out. One line per language, split long lines into two cues. Keep that corner (about 1100 × 180 px) free of anything the viewer must see.
+- On screen: main-language text ≥ 34 px, English labels ≥ 24 px, data numbers large enough to read at the widest framing they appear in.
+- **Subtitles** (when there is a voice): two slips stacked at the bottom left, a black newsprint slip with the main-language line (about 40 px) over a cream typewriter slip with the English line (about 30 px) typing out. One line per language, split long lines into two cues. Keep that corner (about 1100 × 180 px) free of anything the viewer must see.
 - Comparisons and verdicts: every compared item fully in frame and held ≥ 2.5 s.
 
 ## 5. Motion quality

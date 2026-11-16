@@ -21,9 +21,6 @@ Gilded Illumination demo · Borrowed Light · third-party assets and sources
 - Uncial Antiqua: Astigmatic, https://github.com/google/fonts/tree/main/ofl/uncialantiqua
 - IM Fell English roman and italic: Igino Marini, https://github.com/google/fonts/tree/main/ofl/imfellenglish
   (IMFeENrm28P.ttf, IMFeENit28P.ttf, saved as IMFellEnglish.ttf, IMFellEnglish-Italic.ttf)
-- Noto Serif SC 500 / 700: Google / Adobe, https://github.com/google/fonts/tree/main/ofl/notoserifsc
-  Static instances subset to the Chinese on screen (fonts/make_fonts.py) from the variable font NotoSerifSC[wght].ttf,
-  downloaded by build.sh into demo/fonts/src/.
 
 ## Facts
 - None. The film is a fable; it states no facts or figures. The painted world is invented and copies no specific

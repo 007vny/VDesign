@@ -36,7 +36,7 @@ Example (our demo): figure #090307, sun #FFF6DC, gold #FFB347, coral #FC4D2B, ma
 
 ## 4. Type & subtitles
 
-- **Roles**: a heavy condensed sans for the title (120–150 px, e.g. Anton), a condensed sans for small lines (30–40 px, e.g. Barlow Condensed), a bold CJK sans for Chinese (≥ 34 px, e.g. Noto Sans SC). OFL, self-hosted, subset to the characters used.
+- **Roles**: a heavy condensed sans for the title (120–150 px, e.g. Anton), a condensed sans for small lines (30–40 px, e.g. Barlow Condensed), a bold sans for the main language (≥ 34 px, e.g. Noto Sans). OFL, self-hosted, subset to the characters used.
 - Cream on the dark lower water, left-aligned in the lower third, never inside the sun, never centred, no shadow or stroke.
 - **Type lands on the beat**: one word per beat, each landing with a small ripple on the water under it. One word may land late or early on purpose.
 - Subtitles, when the film speaks: one line per language on the water at the bottom left, the same cream, clear of the figures; hold ≥ max(1.8 s, speech + 0.6 s).

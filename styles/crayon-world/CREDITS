@@ -11,7 +11,6 @@ LIBRARIES
 - numpy, scipy, soundfile (BSD), from the library's .venv.
 
 FONTS (SIL Open Font License 1.1; subset by tools/fonts.py from Google Fonts, not in git; licence texts in fonts/)
-- Long Cang (© The Long Cang Project Authors, github.com/googlefonts/longcang): the Chinese line. fonts/OFL-longcang.txt
 - Patrick Hand (© Patrick Wagesreiter): the English line and the sign-off. fonts/OFL-patrickhand.txt
 
 SOUND

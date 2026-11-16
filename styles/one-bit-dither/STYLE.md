@@ -34,10 +34,10 @@ Example (our demo): ink #16161A, paper #E9E6D6.
 ## 4. Type & subtitles
 
 - All text lives in the world: written, typed, stencilled, printed or stamped on an object, then dithered like everything else. No overlay captions.
-- Text is drawn high-resolution on the object's own canvas, bold enough to survive the 960×540 grid: CJK glyphs at least 11 internal px tall where they must be read (22 px at 1080p), Latin cap height at least 9 internal px. Thin handwriting gets a stroke; typewriter faces get a stroke; condensed display faces close up below ~20 px, so stamps use a heavy sans.
-- Roles: handwriting for logs and notes (a kai-style CJK hand, a casual Latin hand), typewriter for labels, a newspaper serif or condensed grotesk for print, a heavy sans for stamps and stencils. Fonts are OFL or Apache, subset to the characters used.
+- Text is drawn high-resolution on the object's own canvas, bold enough to survive the 960×540 grid: cap height at least 9 internal px where text must be read. Thin handwriting gets a stroke; typewriter faces get a stroke; condensed display faces close up below ~20 px, so stamps use a heavy sans.
+- Roles: handwriting for logs and notes (a kai-style hand, a casual Latin hand), typewriter for labels, a newspaper serif or condensed grotesk for print, a heavy sans for stamps and stencils. Fonts are OFL or Apache, subset to the characters used.
 - Bilingual lines: one line per language, native line first and larger.
-- Reading time: hold ≥ CJK characters ÷ 4.5 + other characters ÷ 15 + 1.5 s, measured from the frame where the line is fully in frame and legible. The camera may drift slowly while text is read; it may not cut or cross it.
+- Reading time: hold ≥ characters ÷ 15 + 1.5 s, measured from the frame where the line is fully in frame and legible. The camera may drift slowly while text is read; it may not cut or cross it.
 
 ## 5. Motion quality
 
@@ -84,7 +84,6 @@ Our demo opens on a low glide over frost, uses *print it line by line* and *fall
 
 - **Swimming pattern** when the threshold is screen-locked: anchor it to objects and choose octaves per axis.
 - **Octave rings on large grazing planes** (fields, floors, roofs seen far off): the octave switch draws concentric bands. Put those planes on a screen-locked threshold layer; they carry no texture, so nothing swims.
-- **Stencil bridges on CJK**: cutting bridges through hanzi changes the character (reads as). Stencil Latin only, or not at all.
 - **Moiré on thin repeating structure**: thicken, reduce the count, or keep it in silhouette; check adjacent frames, not single stills.
 - **Grey text**: thin strokes average to paper when minified and vanish; draw text bold or stroked, bias the threshold towards ink, check at 1080p.
 - **Emissive or specular lift on ink**: any emissive term or specular highlight on printed paper turns black letters into grey dots; use diffuse-only paper materials with no emission.

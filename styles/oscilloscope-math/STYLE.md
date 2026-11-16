@@ -35,9 +35,9 @@ Not Sci-fi Hologram HUD (no fantasy chrome, no cyan-magenta palette), not Data S
 
 - **Instrument voice**: a monospace (e.g. JetBrains Mono, OFL) for readouts, cursors, knob values, labels on objects, 19–30 px. Values are live (computed every frame); align the `=` signs in a column.
 - **Formula**: TeX typography (MathJax SVG paths or LaTeX), top left, about 520–560 px wide; glyphs are lit one by one by the beam; the part that changes (an upper limit, a coefficient) flashes when it changes.
-- **Titles**: a serif that matches TeX (e.g. STIX Two Text, OFL), 60–84 px, with the key word in italic; a Chinese line under it in a CJK serif (e.g. Noto Serif SC) ≥ 34 px. Written by the beam (outline traced, then filled, then a white-hot flash), never faded in.
-- **Subtitles**: bottom left, fixed to the glass, a thin vertical light bar, Chinese serif 36 px over English STIX italic 29 px, one line each, a soft dark scrim behind them so a trace never runs through the words. Keep subjects and labels out of that corner.
-- Holds: anything the viewer must read stays at least characters ÷ 15 (Latin) + characters ÷ 4.5 (CJK) + 1.5 s; a measured verdict holds ≥ 2.5 s.
+- **Titles**: a serif that matches TeX (e.g. STIX Two Text, OFL), 60–84 px, with the key word in italic; a main-language line under it in a serif (e.g. Noto Serif) ≥ 34 px. Written by the beam (outline traced, then filled, then a white-hot flash), never faded in.
+- **Subtitles**: bottom left, fixed to the glass, a thin vertical light bar, main-language serif 36 px over English STIX italic 29 px, one line each, a soft dark scrim behind them so a trace never runs through the words. Keep subjects and labels out of that corner.
+- Holds: anything the viewer must read stays at least characters ÷ 15 + 1.5 s; a measured verdict holds ≥ 2.5 s.
 
 ## 5. Motion quality
 

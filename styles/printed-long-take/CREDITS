@@ -5,11 +5,9 @@ images: the valley, river, bridge, trees, cranes, sky, board and paper are drawn
 props.js, scene.js). The bridge's name on the plate is the real name; the plate, thermometer, board, notice and seal are ours.
 
 FONTS (SIL Open Font License 1.1; not in git, build.sh downloads it from github.com/google/fonts)
-- Noto Serif SC (variable, NotoSerifSC[wght].ttf) — Google, instanced at weight 700 and subset by tools/subset.py to the
-  characters the film prints (fonts/NotoSerifSC-700.woff2). Licence text: fonts/OFL-NotoSerifSC.txt
 
 NARRATION
-- Microsoft edge-tts (online neural voices): en-US-AvaNeural for the English version, zh-CN-XiaoxiaoNeural for the Chinese
+- Microsoft edge-tts (online neural voices): en-US-AvaNeural for the English version
   one. The text is the film's own (lines_en.json, lines_zh.json).
 
 MUSIC & SOUND

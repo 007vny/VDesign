@@ -8,12 +8,6 @@
   demo/audio.py).
 
 ## Fonts (subset to the characters the film uses by demo/tools/subset.py; sources downloaded by build.sh into demo/fonts/src/)
-- Noto Serif SC (variable): Google / Adobe, SIL OFL 1.1, https://github.com/google/fonts/tree/main/ofl/notoserifsc
-  (demo/fonts/OFL-notoserifsc.txt)
-- Noto Sans SC (variable): Google / Adobe, SIL OFL 1.1, https://github.com/google/fonts/tree/main/ofl/notosanssc
-  (demo/fonts/OFL-NotoSansSC.txt)
-- LXGW WenKai Regular v1.522: LXGW, SIL OFL 1.1, https: github.com/lxgw/LxgwWenKai/releases/tag/v1.522
-  (demo/fonts/OFL-LXGWWenKai.txt)
 - Architects Daughter: Kimberly Geswein, SIL OFL 1.1, https://github.com/google/fonts/tree/main/ofl/architectsdaughter
   (demo/fonts/OFL-ArchitectsDaughter.txt)
 - Newsreader (variable): Production Type, SIL OFL 1.1, https://github.com/google/fonts/tree/main/ofl/newsreader

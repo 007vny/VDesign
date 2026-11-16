@@ -7,7 +7,6 @@ Voice
 Fonts (SIL Open Font License 1.1; not in git, downloaded by make_fonts.py; licence texts land in fonts/)
 - IM FELL English Roman / Italic and IM FELL English SC — Igino Marini — https://github.com/google/fonts/tree/main/ofl/imfellenglish , https://github.com/google/fonts/tree/main/ofl/imfellenglishsc
 - Courier Prime Regular / Bold — Alan Dague-Greene — https://github.com/google/fonts/tree/main/ofl/courierprime
-- Noto Serif SC Bold / Black, subset to the characters used (Google Fonts CSS API) — Google / Adobe — https://github.com/google/fonts/tree/main/ofl/notoserifsc
 
 Archive images (public domain; not in git, downloaded by build.sh from SOURCES.jsonl into raw/)
 - 24c airmail stamp, Curtiss Jenny (Scott C3), Bureau of Engraving and Printing for the U.S. Post Office, 1918 — public domain (work of the U.S. government) — https://commons.wikimedia.org/wiki/File:US_stamp_1918_24c_Curtiss_Jenny_C3-Fast-Plane_Var.jpg

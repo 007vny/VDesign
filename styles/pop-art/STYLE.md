@@ -34,12 +34,12 @@ Not Halftone Dossier (cream archive paper, soft colours, characters), not Risogr
 ## 4. Type & subtitles
 
 - **Headlines**: a tall condensed grotesque (e.g. Anton, OFL), 100–260 px; colour fill, black outline, an offset shadow in another plate. They are printed in: colour lands from an offset, the key snaps on.
-- **Labels**: a paper slip with a black frame and a plate-coloured offset block behind it, tilted ±2°, at a fixed corner of the frame. Headline line (condensed or a heavy grotesque such as Archivo Black, 90–130 px) over one short Chinese line (a heavy CJK sans such as Noto Sans SC Black, subset to the characters used, 46–56 px). Mixed Latin and Chinese lines use a font stack (Latin face first) so Latin never falls back to a serif.
-- **Subtitles** are the same paper slip at the bottom centre: Chinese 40 px over English 28 px (Archivo Black), one line each, never wrapped; hold ≥ max(1.8 s, speech + 0.6 s).
+- **Labels**: a paper slip with a black frame and a plate-coloured offset block behind it, tilted ±2°, at a fixed corner of the frame. Headline line (condensed or a heavy grotesque such as Archivo Black, 90–130 px) over one short main-language line (a heavy sans such as Noto Sans Black, subset to the characters used, 46–56 px). Mixed Latin and main-language lines use a font stack (Latin face first) so Latin never falls back to a serif.
+- **Subtitles** are the same paper slip at the bottom centre: main-language text 40 px over English 28 px (Archivo Black), one line each, never wrapped; hold ≥ max(1.8 s, speech + 0.6 s).
 - Labels enter with a fast print (0.5 s) where paper and words appear together, and leave by sliding out; nothing fades.
 - Page-space type (a word printed on the sheet beside the subject) may be covered by the next copies or carried away by the camera: that is the medium's own exit.
 - One headline and one label at a time. No page headers, no centred stacks of text, no bullet lists.
-- Reading time: every label line ≥ characters ÷ 15 (Latin) + characters ÷ 4.5 (CJK) + 1.5 s, checked with `readcheck.mjs`.
+- Reading time: every label line ≥ characters ÷ 15 + 1.5 s, checked with `readcheck.mjs`.
 
 ## 5. Motion quality
 
@@ -94,7 +94,7 @@ Our demo opens on the *dot pull*, uses the *colour wave* as its turn and ends on
 - **Same-colour collisions.** Red on red, yellow on yellow: put a key line or a paper disc between.
 - **Blank print moments.** Printing plate by plate from an empty sheet leaves frames of bare paper; start with the first plate already down, and print a label's words together with its paper.
 - **A key line that does not match its fill.** When an image is made of tiles, the outline must follow the tile edges; a smooth curve over square cells looks drawn wrong, not misregistered.
-- **Too many words.** One label at a time, short Chinese lines, otherwise the reading-time rule cannot be met.
+- **Too many words.** One label at a time, short main-language lines, otherwise the reading-time rule cannot be met.
 - **Hot transients.** Stamps and claps push the true peak over the limit; limit the mix before the master.
 
 ## 10. Engine

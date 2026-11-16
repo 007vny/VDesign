@@ -18,8 +18,8 @@ Not **Caption News** (that is captions-first social video: huge slammed captions
 | Zone | Position | Content |
 |---|---|---|
 | Content | x 96–1824, y 56–840 | the full-frame graphic; when a strap is up, nothing important below y 840 |
-| Lower-third strap | tab x 96 y 856, 48 high; strap x 96 y 904, 1250×104, + 120 px ink end block | category tab (accent, ink text, Chinese + English), headline in Chinese 50 px + one English line 27 px |
-| Source line | right-aligned at x 1836, y 950 / 978 | `SOURCE: …` mono 13 px + Chinese 16 px, 75 % opacity; English ≤ 36 characters or it slides under the strap's end block |
+| Lower-third strap | tab x 96 y 856, 48 high; strap x 96 y 904, 1250×104, + 120 px ink end block | category tab (accent, ink text, main-language + English), headline in the main language 50 px + one English line 27 px |
+| Source line | right-aligned at x 1836, y 950 / 978 | `SOURCE: …` mono 13 px + main-language text 16 px, 75 % opacity; English ≤ 36 characters or it slides under the strap's end block |
 | Channel bug | top right, plate centre (1739, 86), 0.327 of the sting plate | the plate plus `AI NEWS` |
 | Corner tag | top left x 96 y 56, 330×64 | `ILLUSTRATION / · AI ` on generated plates, `SCHEMATIC` on schematic charts; flips in and out 0.2 s |
 
@@ -38,7 +38,7 @@ Content layers sit lower than a subtitled layout would put them (a 60–110 px d
 | Bars | grow from a zero line downward for losses, values roll | a reference line at the shared threshold plus a badge |
 | Explainer map | the same projection, one long take | members light in order of distance from the city; the city label, the institution label with leader, a stamp; the camera pushes, then pans to make room |
 | Documents | 380×490 paper, ink header | fly out of the city dot on an arc (0.5 s, scale 0.08 → 1, rotation settles); check boxes tick on the voice's key words |
-| Quote card | ink background with the package's light streaks, a large accent quotation mark lands first, lines push up one by one (0.18 s apart), then the Chinese gist, a gold rule, name, occasion and date | the official wording, in the language it was said; never paraphrase inside quotation marks; an underline sweeps the key word as the voice says it |
+| Quote card | ink background with the package's light streaks, a large accent quotation mark lands first, lines push up one by one (0.18 s apart), then the main-language gist, a gold rule, name, occasion and date | the official wording, in the language it was said; never paraphrase inside quotation marks; an underline sweeps the key word as the voice says it |
 | Spec card | eyebrow (source · date), the product name pushed up from a mask, a category stamp, proportion bars on one scale (the whole vs the part, values rolling), a percentage badge, a context chip; a second group on the right for the hardware or the place, filling cell by cell, joined by a bracket to its total | one scale for every bar, so the proportion is true; every number from the source page |
 | Stamps | accent fill or ink with a double accent frame, −6° to −10° | land from 1.9× in 0.16 s with an expanding ellipse; one per story at most |
 | Transitions | vertical band wipe (accent 84 px + ink 5 px + gold 14 px edge, 0.3 s) between stories and programme parts; hard cut + timpani inside a story; slanted wipe into the end card | nothing else: no dissolves, no 3D flips, no page turns, no fly-throughs. **The package layer travels with its picture**: under a wipe each side draws its own strap words, tab, source line and corner tag (old state on the old side, new state on the new side), so the band brushes the headline over; on a hard cut they change on the same frame. Strap words never flip or overlap. The incoming picture's entry animation starts under the band, so its first revealed frame already has content |
@@ -58,11 +58,11 @@ Structure to keep when you change the brand: one accent + one gold-like secondar
 
 ## 5. Type
 
-- Chinese: Noto Sans SC 900 (headlines, strap) / 700 (labels).
+- Main language: Noto Sans 900 (headlines, strap) / 700 (labels).
 - Latin: Barlow Condensed 800 (numbers, names, the plate), 600 (secondary lines, quotes), 600 italic (the end-card English title).
 - Mono: IBM Plex Mono 500 for datelines, sources, axis labels, all caps with 1–4 px tracking.
 - All OFL, subset from Google Fonts by `demo/tools/fonts.sh` (the character list is read from `main.js`; delete `fonts/*.woff2` after a text change). No handwriting faces in this style.
-- Every label is bilingual on one line each (Chinese first, English smaller); never wrap.
+- Every label is bilingual on one line each (main-language first, English smaller); never wrap.
 
 ## 6. Picture layer and grade
 
@@ -82,7 +82,7 @@ Structure to keep when you change the brand: one accent + one gold-like secondar
 
 | Layer | What | Level |
 |---|---|---|
-| Anchor voice | one narrator, one sentence per graphic, starting 0.1 s after the cut; HP 90 Hz, 3:1 compression. Default: the library's Kokoro (`core/tts/tts.py`, free, Apache 2.0) in English or Chinese. The user's own recording, or another TTS they have a key for (for example Doubao, as in the demo), replaces it — never required | music ducked ≈ −7 dB and its 1.2–5 kHz band thinned under speech |
+| Anchor voice | one narrator, one sentence per graphic, starting 0.1 s after the cut; HP 90 Hz, 3:1 compression. Default: the library's Kokoro (`core/tts/tts.py`, free, Apache 2.0) in English. The user's own recording, or another TTS they have a key for (for example Doubao, as in the demo), replaces it — never required | music ducked ≈ −7 dB and its 1.2–5 kHz band thinned under speech |
 | News theme | 120 BPM, minor key: spiccato violins in root–fifth–octave eighths, pizzicato bass on the beat, horn pads, a low-passed 16th-note saw pulse, kick on 1 and 3, snare on 2 and 4 | full under the rundown and the first story |
 | Section moods | markets: violins down an octave, tremolo, four-on-the-floor kick (heartbeat); policy: pizzicato and horns only | |
 | Signature hits | sting tutti; glockenspiel notes as the rundown rows land; timpani on hard cuts and story changes; one beat of silence before the biggest break, then the heaviest hit of the film; a held drone after the verdict stamp; a major-key lift for the last story; tutti on the end card | |

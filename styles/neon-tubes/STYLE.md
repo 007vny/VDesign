@@ -19,7 +19,7 @@ Not a vector glow line on black (no bore, no board, no wet street); not LED "neo
 - **Cross-section profile layer**: each tube is stroked into a canvas as concentric bands of the cylinder height `h = sqrt(1 - r²)` with a material code (clear, coated, black paint, metal). The shader takes the normal from a Sobel gradient of that profile: gas column inside 70–85 % of the radius, glass rim, Fresnel edge, specular streak, refraction of what is behind.
 - **Emission layer** at half resolution, blurred into a pyramid, used twice: as light on surfaces (lobes sized in metres, 2 cm to 3 m) and as bloom on screen. Bricks and tiles get relief toward the light.
 - **Characters from silhouettes.** Build each pose from a small rig (haunch, body, chest, neck, head, muzzle, ears, two-segment legs) as a smooth union of signed-distance shapes; take the outer contour with marching squares, smooth it and open it at one point for the electrodes (usually under the body). Eyes, whiskers and tail are separate thin tubes. One pose = one tube; a pose library of 30–40 covers a short film.
-- **Hanzi from the font's skeleton.** Lay each character on a 10 × 10 grid over the skeleton of a sans-serif CJK font (Noto Sans SC): horizontals level, verticals plumb, strokes joined into as few bent tubes as the shape allows, double-backs routed behind lit strokes, never across the open face of the character. Check every glyph overlaid on the font before use.
+- **Letters from a font's skeleton.** Lay each letter over the skeleton of a sans-serif font: horizontals level, verticals plumb, strokes joined into as few bent tubes as the shape allows, double-backs routed behind lit strokes, never across the open face of the letter. Check every glyph overlaid on the font before use.
 - **The street is procedural and anchored to the world**: brick, mosaic tile, plaster, shopfronts with dim interiors, roller shutters, AC units, drainpipes, cables; a dark alley is a near-black slot between buildings.
 - **Wet street**: paving, kerb, asphalt with aggregate glints; puddles grow with wetness. The reflection mirrors the facade about the wall base: sharp in puddles, smeared on wet asphalt, rippled by rain rings and single drops. Keep two screen heights of facade above the frame in the layers so a low camera can mirror signs far above it.
 - **Screen space only**: camera motion blur, a slight chromatic fringe, a filmic curve that pushes cores toward white, vignette, dither, grain.
@@ -37,9 +37,9 @@ Example (our demo, an example only): protagonist turquoise `#1ff2d9` with pink e
 
 ## 4. Type & subtitles
 
-- **Words are tubes.** Every word the viewer reads is bent glass on a sign: hanzi as above (5–14 strokes in 1–7 tubes), Latin capitals monoline at 15–20 % of the hanzi height, Chinese on one line, English beneath.
+- **Words are tubes.** Every word the viewer reads is bent glass on a sign: the main word in large monoline capitals (a few bent tubes per letter), a second line beneath at 15–20 % of its height.
 - **Printed type only where the world has paint or paper**: a stencil on a roller shutter, a tag, a clock face. Use open fonts lit by the scene's light.
-- **Readable at 1080p**: hanzi tubes ≥ 60 px tall, Latin ≥ 18 px; hold ≥ CJK ÷ 4.5 + Latin ÷ 15 + 1.5 s from the moment the sign settles after its strike. A flickering or chasing sign does not count as readable.
+- **Readable at 1080p**: main lettering ≥ 60 px tall, small lettering ≥ 18 px; hold ≥ characters ÷ 15 + 1.5 s from the moment the sign settles after its strike. A flickering or chasing sign does not count as readable.
 - No subtitle bar. Names of places come from the signs, time from a clock; a story told in this style is best told without voice.
 
 ## 5. Motion quality
@@ -95,7 +95,7 @@ Our demo opens on a macro of cold glass pulling back from the first strike, uses
 
 - **Flat glowing strokes** look like vector art: always render the cross-section and the board behind.
 - **Wrong gas colours** (a green clear tube, a blue neon): only neon and argon-mercury may be clear.
-- **Hand-guessed hanzi**: strokes in the wrong place, double-backs crossing the character, one tube per stroke with caps everywhere. Lay them over the font.
+- **Hand-guessed letters**: strokes in the wrong place, double-backs crossing the character, one tube per stroke with caps everywhere. Lay them over the font.
 - **Tweened or morphing figures** break the medium; so do bright, long afterglows that multiply a character.
 - **Macro bloom**: very close to a lit figure the halo floods the frame; pull back a little or keep most of it unlit.
 - **Low cameras need off-screen content**: a mirror at puddle level shows signs far above the frame; keep them in the layers or frame higher.
@@ -104,11 +104,11 @@ Our demo opens on a macro of cold glass pulling back from the first strike, uses
 
 ## 10. Engine
 
-- `demo/lib.js`: `fillet`, `tubeFromStrokes(strokes, {D, z, coat, col, circ, caps})`, `hanzi`, `latin`, `track`.
+- `demo/lib.js`: `fillet`, `tubeFromStrokes(strokes, {D, z, coat, col, circ, caps})`, `latin`, `track`.
 - `demo/world.js`: gas colours `GAS`, the street (signs, boards, shopfronts, buildings), `artTube` (a tube from rig output, scaled, flipped, placed).
 - `demo/film.js`: `drawTube` (profile + colour + emission, partial lighting), `strike()` and `circuit()` (switching), character keys (`K_`, `jump`, `run`), the cracked tube, cameras per shot, `window.TEXTS`, `window.EV`.
 - `demo/gl.js`: surfaces and glass shading, wet street, puddles, ripples, post.
-- `demo/tools/art.py` + `sdf.py`: the demo's pose rig and all poses, its fish and props (the demo's subjects; your film draws its own) → `art.json`. `tools/glyphs_build.py` + `glyph_check.py`: neon hanzi on the font skeleton.
+- `demo/tools/art.py` + `sdf.py`: the demo's pose rig and all poses, its fish and props (the demo's subjects; your film draws its own) → `art.json`. `tools/glyphs_build.py` + `glyph_check.py`: neon glyphs on the font skeleton.
 - `demo/audio.py`: synth voices and neon foley driven by `events.json`.
 
 ## 11. Variation space

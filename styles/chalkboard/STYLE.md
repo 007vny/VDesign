@@ -36,16 +36,16 @@ Not Whiteboard Explainer: that style is a bright glossy board, coloured markers,
 
 ## 4. Type & subtitles
 
-- Chinese is hand-authored stroke data (centre lines + stroke type per stroke) drawn by the chalk engine, never a font's outline. Every character the topic needs is added to the data and checked against an OFL kai font behind it before shooting (how: §10, *New characters*).
+- Main language is hand-authored stroke data (centre lines + stroke type per stroke) drawn by the chalk engine, never a font's outline. Every character the topic needs is added to the data and checked against an OFL kai font behind it before shooting (how: §10, *New characters*).
 - English on the board is a single-line OFL handwriting font (EMS family) drawn by the same engine; symbols missing from the font (arrows, plus) are drawn as strokes.
-- On the board: keywords only, one line of Chinese, the next line English, a size smaller.
-- Sizes at 1080p: big characters 300–450 px; labels ≥ 55 px CJK and ≥ 30 px Latin cap height; small writing gets heavier chalk so no stroke is thinner than 3 px.
-- Reading time: every block stays fully in frame ≥ CJK ÷ 4.5 + other ÷ 15 + 1.5 s, counted from the frame it is wholly visible (readcheck). A block is fully written before it is read.
+- On the board: keywords only, one line of the main language, the next line English, a size smaller.
+- Sizes at 1080p: big characters 300–450 px; labels ≥ 30 px cap height; small writing gets heavier chalk so no stroke is thinner than 3 px.
+- Reading time: every block stays fully in frame ≥ characters ÷ 15 + 1.5 s, counted from the frame it is wholly visible (readcheck). A block is fully written before it is read.
 
 ### Voice and subtitles
 
 - When the style tells a story it is narrated: one calm teacher's voice in short spoken sentences, said as the matching chalk appears; what the voice names is being written or shown at that moment.
-- A quiet subtitle plate sits above the bottom safe area: the spoken line in Chinese and a free English translation, one line each, a plain kai face (an OFL subset) on a soft dark plate, in and out with the voice. Long lines are split at sentence ends into several cues.
+- A quiet subtitle plate sits above the bottom safe area: the spoken line in the main language and a free English translation, one line each, a plain kai face (an OFL subset) on a soft dark plate, in and out with the voice. Long lines are split at sentence ends into several cues.
 - Nothing the viewer must read on the board sits behind the plate; frames held for the board's words are composed above it.
 - Pauses between voice lines are short (0.25–0.4 s); one longer hold (about 1.5 s) is kept for the verdict. Board action (a panel sliding, a wipe) runs under the voice instead of waiting for it.
 
@@ -109,7 +109,7 @@ Rules: the subject is never smaller than a third of the frame in close shots; te
 
 The demo's code is a working engine; copy it into the project folder and write the film yourself.
 
-**Copy as is:** `js/chalk.js` (`Stroke`, `bake`, `drawStroke`: the chalk), `js/hand.js` (`writeChar(ch, cx, cy, size, clock, o)`, `writeLine` for mixed Chinese and Latin, `writeLatin`, `latinWidth`, `loadSvgFont`; each returns `Stroke[]` with `t0`/`t1` set and `.end` = the time the last stroke ends), `js/r2d.js` (grain tile, deposit), `js/stage.js` (slates, frame, tray, clock, wall, `paintGrid`; world units: slate x 0…6400, y 0…1700, panel width `PW` 3200), `js/post.js`, `js/lab.js`, `tools/foley_lib.py`, `tools/subset.py` (subtitle font cut from the strings in `SUB` in `film.js`), `tools/srt.py`. `js/props.js` too, minus the glow (§9).
+**Copy as is:** `js/chalk.js` (`Stroke`, `bake`, `drawStroke`: the chalk), `js/hand.js` (`writeChar(ch, cx, cy, size, clock, o)`, `writeLine` for mixed main-language and Latin, `writeLatin`, `latinWidth`, `loadSvgFont`; each returns `Stroke[]` with `t0`/`t1` set and `.end` = the time the last stroke ends), `js/r2d.js` (grain tile, deposit), `js/stage.js` (slates, frame, tray, clock, wall, `paintGrid`; world units: slate x 0…6400, y 0…1700, panel width `PW` 3200), `js/post.js`, `js/lab.js`, `tools/foley_lib.py`, `tools/subset.py` (subtitle font cut from the strings in `SUB` in `film.js`), `tools/srt.py`. `js/props.js` too, minus the glow (§9).
 
 **Adapt:** `js/hz.js` (keep its characters, add yours), `index.html` (title), `js/app.js` (the compositor: it draws the layers, wet streak, wipe, light, subtitle plate and exposes `render`, `TEXTS`, `DUR`, `EV`; edit it to the film's board instead of feeding it placeholder data).
 
@@ -133,7 +133,7 @@ A film without a wet streak, a wipe, grids or a sliding panel removes those part
 **New characters.** `hz.js` maps a character to its strokes in standard stroke order (GF 0023-2020); each stroke is `"type x,y x,y …"`: the centre line through its anchor points in a 100 × 100 box, y down. Types: `h`, `s`, `p`, `n`, `d`, `t`, `x`; `z…` for turns (corners pressed); a last letter `g` ends in a hook (its last point is the hook's tip), `p``t` in a point, `d` in a dot. Write only the centre line: the slight bow, the rise of horizontals and the pressed entry tick are added by `writeChar`. Symbols (arrows, plus, a tick) are written the same way. A way that works:
 
 1. Take the stroke order and count from a dictionary that shows the standard order, and write down the type sequence first.
-2. Set the character large from the reference kai (LXGW WenKai, `fonts/`) on a 100-unit grid, placed as the check page places it so the numbers line up: e.g. with PIL, `ImageFont.truetype(font, 1000)` drawn into a 1000 × 1000 image at `(0, 880)` with `anchor='ls'` (left edge, baseline at 0.88 of the box), with 100-px grid lines; read each stroke's start, corners and end off it and divide by 10. Keep the anchors on the middle of the font's stroke, not its edge.
+2. Set the character large from the reference kai (Klee One, `fonts/`) on a 100-unit grid, placed as the check page places it so the numbers line up: e.g. with PIL, `ImageFont.truetype(font, 1000)` drawn into a 1000 × 1000 image at `(0, 880)` with `anchor='ls'` (left edge, baseline at 0.88 of the box), with 100-px grid lines; read each stroke's start, corners and end off it and divide by 10. Keep the anchors on the middle of the font's stroke, not its edge.
 3. Open `index.html?lab=hz&chars=<new characters>&size=400`: the chalk is drawn over the font in red. Check stroke count and order, which strokes touch or cross and which stop short, the proportion of each component, hook directions and the feet; then look again at the size the film uses for it. Fix the numbers, not the font.
 4. Read it at film size the way a native reader would, before shooting (§9): a structure that looks right at 400 px over the font can still read as another character on its own.
 
