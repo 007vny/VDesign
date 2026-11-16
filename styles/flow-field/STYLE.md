@@ -98,8 +98,6 @@ Our demo opens on a high oblique push over a calm field, uses *the printed verdi
 - **Rainbow ramps and glow** turn the engraving into a weather app. One warm ramp, flat ink.
 - **Horizon:** a low camera shows the end of the world; haze it into paper and cap the footprint there.
 - **Text over the strongest lines** gets lost; place it beside the feature with a leader, or give it a paper halo.
-- **Maps of China follow the national standard map:** the South China Sea islands (Dongsha, Xisha, Zhongsha with Huangyan Dao, Nansha) are drawn and named with their standard Chinese names (pinyin in English: Xisha Islands, not Paracel), the dashed line is printed in the chart's own ink whenever its waters are in frame, the Diaoyu Islands are drawn, Taiwan carries the same land treatment as the mainland and no country name, and land boundaries are left out unless their course is certain. Island marks are symbols scaled up to stay legible; positions come from published base points or open gazetteers, cited next to the film.
-- **A view that shows the South China Sea but not its southern part carries a inset**, as published maps of China do: a small cartouche in the chart's paper, ink and type, the whole sea from about 2°N to 23°N with the dashed line, the four island groups and Zengmu Ansha. Place it over empty sea or land away from the subject, the other cartouches and the subtitles. Names never sit on the dashed line or a coastline: move the label, not the line.
 - **Wide shots hide what matters under cartouches:** a legend or curve placed over open water may cover islands; place it where the chart is truly empty.
 
 ## 10. Engine
@@ -110,7 +108,6 @@ Our demo opens on a high oblique push over a calm field, uses *the printed verdi
 - `demo/chartgl.js`: the printed ground in WebGL2 (height grids, land wash, hatching LOD, focus fade).
 - `demo/overlay.js`: printing on the plane (`plane`, `ptext`), pinned screen text (`stext`), the `window.TEXTS` registry.
 - `demo/tools/prep_dem.py`: ETOPO1 → coastlines, contours and grids (marching squares, Douglas–Peucker).
-- `demo/tools/make_scs.py` → `demo/scs.js`: South China Sea islands and reefs, the dashed line and the Diaoyu Islands as lon/lat data; `film.js` prints them with the coast (dashes) and above the lines (islands).
 - `demo/tools/timeline.py` → `demo/timeline.js`: narration starts, captions and a monotone map from film time to the chart's story time, so a narrated cut can stretch or tighten shots without rewriting them; the flow clock is integrated in film time, so strokes keep their screen speed.
 - Minimal new use: replace `wind()` with an ocean-current grid sampler (bilinear in time between two dated grids), keep `drawWind`, set `GRADES` to current speeds in knots; the engine draws a Gulf Stream with no other change.
 

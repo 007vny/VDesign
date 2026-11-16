@@ -141,11 +141,8 @@ Render 6–9 key shots with the real drawing code, tiled into one sheet (`core/r
 These apply to every frame that shows a map, a globe or satellite imagery, in every style.
 
 - **No borders unless the film is about them.** Draw coastlines, terrain, imagery or streets, without national or provincial borders. Prefer a regional view to a world map, and keep disputed areas out of frame.
-- **When China is in frame, draw all of it.** Taiwan, Hainan, the South China Sea islands with the dashed line (in frame, or in an inset), and the Diaoyu Islands with Chiwei Yu. Taiwan and the mainland are one country, in the same colour and the same treatment. Zangnan and Aksai Chin are drawn as on China's standard map.
-- **Default border data doesn't meet this.** The default boundaries of Natural Earth, world-atlas and OpenStreetMap can't be used to draw China. When the film needs borders, use China-view data (such as Natural Earth's `admin_0_countries_chn` layers, checked against the standard map) or China's standard map service (bzdt.ch.mnr.gov.cn).
-- **Words follow the same map.** Taiwan, Hong Kong and Macao are never listed as countries: not in labels, legends, subtitles, the voice-over or data tables. A list that includes them is "countries and regions". Clean a dataset's country field before you chart it.
-- **Other disputed areas**: the same; frame them out, or leave their borders undrawn.
-- **Check and credit.** Before delivery, enlarge every map shot and check it against these rules. `CREDITS` names the map data, its source and its view (for example "Natural Earth 1:50m, China view").
+- **Disputed areas**: frame them out, or leave their borders undrawn.
+- **Check and credit.** Before delivery, enlarge every map shot and check it against these rules. `CREDITS` names the map data, its source and its view (for example "Natural Earth 1:50m").
 
 ---
 <sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: renamed, non-English text and tools removed, the original site and release tooling removed.</sub>
