@@ -1,0 +1,16 @@
+{
+ "slug": "oscilloscope-math",
+ "num": "76",
+ "en": "Oscilloscope Math",
+ "category_en": "Light & Lines",
+ "film": "The Gibbs Phenomenon",
+ "line": "How do you roll a square out of circles? Spinning circles stack into a square wave, until a dive into one corner finds the 9% spike that never goes away.",
+ "uses": [
+  "Maths and physics lessons",
+  "Signals and electronics",
+  "Science explainers"
+ ],
+ "frame_sec": 28.6,
+ "dur": 51.1,
+ "demo_source": false
+}

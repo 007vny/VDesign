@@ -1,0 +1,16 @@
+{
+ "slug": "countdown",
+ "num": "03",
+ "en": "Live Countdown Split-screen",
+ "category_en": "Edit & Documentary",
+ "film": "Counting Itself Down",
+ "line": "The last minute of the Artemis II launch, uncut: one cell opens to nine, and they merge into one at ignition.",
+ "uses": [
+  "Launches",
+  "Countdowns",
+  "Live events"
+ ],
+ "frame_sec": 8.93,
+ "dur": 59.5,
+ "demo_source": false
+}

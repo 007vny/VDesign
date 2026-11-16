@@ -1,0 +1,15 @@
+{
+ "slug": "my-style",
+ "num": "",
+ "en": "My Style",
+ "category_en": "Graphic & Type",
+ "film": "Title of the Demo Film",
+ "line": "One sentence: what happens in the demo film.",
+ "uses": [
+  "Use one",
+  "Use two",
+  "Use three"
+ ],
+ "frame_sec": 12.0,
+ "dur": 0
+}

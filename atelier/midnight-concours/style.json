@@ -1,0 +1,23 @@
+{
+ "slug": "midnight-concours",
+ "num": 8,
+ "roman": "VIII",
+ "en": "Midnight Concours",
+ "category_en": "Atelier",
+ "line": "A black studio and long strips of light sliding over a sculpted form.",
+ "uses": [
+  "Automotive",
+  "Industrial design",
+  "Hardware"
+ ],
+ "base": [
+  "glass-product",
+  "hologram-hud"
+ ],
+ "palette": [
+  "#07090c",
+  "#12233f",
+  "#e8edf2"
+ ],
+ "demo_source": false
+}

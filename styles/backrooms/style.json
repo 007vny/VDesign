@@ -1,0 +1,16 @@
+{
+ "slug": "backrooms",
+ "num": "64",
+ "en": "Liminal Found Footage",
+ "category_en": "Film & Tape",
+ "film": "Night Shift Orientation",
+ "line": "A new night-shift hire films their first night in an endless yellow office, following the rules on the wall.",
+ "uses": [
+  "Horror",
+  "Mystery & ARG",
+  "Game teasers"
+ ],
+ "frame_sec": 8.96,
+ "dur": 59.7,
+ "demo_source": true
+}

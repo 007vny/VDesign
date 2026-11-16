@@ -1,0 +1,23 @@
+{
+ "slug": "gallery-white",
+ "num": 7,
+ "roman": "VII",
+ "en": "Gallery White",
+ "category_en": "Atelier",
+ "line": "A museum after closing: each idea on its own plinth, with a small label beside it.",
+ "uses": [
+  "Collections",
+  "Craft",
+  "Product archives"
+ ],
+ "base": [
+  "brick-toy",
+  "tilt-shift"
+ ],
+ "palette": [
+  "#f3f1ec",
+  "#cbb99a",
+  "#2e3a36"
+ ],
+ "demo_source": false
+}

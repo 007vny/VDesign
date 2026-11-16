@@ -1,0 +1,16 @@
+{
+ "slug": "scratch-film",
+ "num": "65",
+ "en": "Scratch Film",
+ "category_en": "Film & Tape",
+ "film": "The Night Climb",
+ "line": "A finger-long lanternfish climbs half a kilometre in the dark, hides its shadow with its own lights, and turns out to be one of countless animals rising every night.",
+ "uses": [
+  "Things that happen in the dark",
+  "One mark to a whole system",
+  "Small adventures told in light and shadow"
+ ],
+ "frame_sec": 39.2,
+ "dur": 52.0,
+ "demo_source": false
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "ascii-crt",
+ "num": "62",
+ "en": "CRT ASCII Terminal",
+ "aka": [
+  "ASCII / CRT Terminal"
+ ],
+ "category_en": "Film & Tape",
+ "film": "Tranquility.log",
+ "line": "A moon-base AI wakes after forty years to a signal from Earth, and replies by drawing “home” in characters.",
+ "uses": [
+  "Developer tools",
+  "Sci-fi",
+  "Tech brands"
+ ],
+ "frame_sec": 50.23,
+ "dur": 59.8,
+ "demo_source": true
+}

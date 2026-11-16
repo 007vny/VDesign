@@ -1,0 +1,16 @@
+{
+ "slug": "satellite-briefing",
+ "num": "86",
+ "en": "Satellite Briefing",
+ "category_en": "Instruments & Evidence",
+ "film": "The Map Still Says Sea",
+ "line": "A satellite follows the map to the Aral Sea and finds a desert; only the part someone dammed came back.",
+ "uses": [
+  "Climate",
+  "News explainers",
+  "Geography"
+ ],
+ "frame_sec": 37.4,
+ "dur": 37.8,
+ "demo_source": false
+}

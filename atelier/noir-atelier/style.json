@@ -1,0 +1,23 @@
+{
+ "slug": "noir-atelier",
+ "num": 1,
+ "roman": "I",
+ "en": "Noir Atelier",
+ "category_en": "Atelier",
+ "line": "Black lacquer, one shaft of light, and a single gold thread that leads the eye from shot to shot.",
+ "uses": [
+  "Maison films",
+  "Fragrance",
+  "Private launches"
+ ],
+ "base": [
+  "glass-product",
+  "art-deco"
+ ],
+ "palette": [
+  "#0b0a09",
+  "#d9b36a",
+  "#efe6d6"
+ ],
+ "demo_source": false
+}

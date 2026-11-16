@@ -1,0 +1,16 @@
+{
+ "slug": "precise-mechanism",
+ "num": "48",
+ "en": "Color-Coded Mechanism",
+ "category_en": "Line Diagrams",
+ "film": "Three Systems Keep the Time",
+ "line": "A watch with no battery is cut open: its three systems are dyed one by one, the train races when the escapement is pulled out, and one slowed tick lets it all out again.",
+ "uses": [
+  "How machines work",
+  "Product and engineering explainers",
+  "Science teaching"
+ ],
+ "frame_sec": 21.0,
+ "dur": 52.0,
+ "demo_source": false
+}

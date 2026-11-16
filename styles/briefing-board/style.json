@@ -1,0 +1,16 @@
+{
+ "slug": "briefing-board",
+ "num": "87",
+ "en": "Engineering Briefing Board",
+ "category_en": "Instruments & Evidence",
+ "film": "The Ship Decides",
+ "line": "Four bridge types are tested on one briefing wall, and the ship that must pass under picks the winner.",
+ "uses": [
+  "Engineering",
+  "Option comparisons",
+  "Briefings"
+ ],
+ "frame_sec": 39.9,
+ "dur": 40.0,
+ "demo_source": false
+}

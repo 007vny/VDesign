@@ -1,0 +1,16 @@
+{
+ "slug": "instruction-manual",
+ "num": "49",
+ "en": "Instruction Manual Art",
+ "category_en": "Line Diagrams",
+ "film": "Step Ten",
+ "line": "Two first-timers build a crib from a flat-pack manual, ten steps on one 45° page; step ten was never in the manual.",
+ "uses": [
+  "Assembly and set-up guides",
+  "Safety instructions",
+  "Product onboarding"
+ ],
+ "frame_sec": 6.1,
+ "dur": 50.6,
+ "demo_source": false
+}

@@ -1,0 +1,16 @@
+{
+ "slug": "brick-toy",
+ "num": "78",
+ "en": "Brick Toy",
+ "category_en": "3D & Miniature",
+ "film": "Rocket from Spare Parts",
+ "line": "A brick astronaut builds a rocket from spare parts and flies to a brick moon.",
+ "uses": [
+  "Toys & kids",
+  "Product builds",
+  "Space"
+ ],
+ "frame_sec": 38.88,
+ "dur": 54.0,
+ "demo_source": true
+}

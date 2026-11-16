@@ -1,0 +1,19 @@
+{
+ "slug": "microscope",
+ "num": "89",
+ "en": "Under the Microscope",
+ "aka": [
+  "Microscope Story"
+ ],
+ "category_en": "Instruments & Evidence",
+ "film": "Measured Blue",
+ "line": "One continuous move from a liver slide to a single nucleus; two circles, counted pixel by pixel, differ 2.4 times in blue.",
+ "uses": [
+  "Biomedicine",
+  "Materials science",
+  "Skincare science"
+ ],
+ "frame_sec": 6.5,
+ "dur": 39.5,
+ "demo_source": false
+}

@@ -1,0 +1,23 @@
+{
+ "slug": "champagne-hour",
+ "num": 5,
+ "roman": "V",
+ "en": "Champagne Hour",
+ "category_en": "Atelier",
+ "line": "Golden-hour haze, soft discs of light, and a fine bead of bubbles rising through every shot.",
+ "uses": [
+  "Celebrations",
+  "Weddings",
+  "Wine & spirits"
+ ],
+ "base": [
+  "firefly-pointillism",
+  "glass-product"
+ ],
+ "palette": [
+  "#2a1a0c",
+  "#e2b86b",
+  "#fff3d6"
+ ],
+ "demo_source": false
+}

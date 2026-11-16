@@ -1,0 +1,19 @@
+{
+ "slug": "desktop-flythrough",
+ "num": "70",
+ "en": "Tabletop App Flythrough",
+ "aka": [
+  "Desktop Flythrough"
+ ],
+ "category_en": "Screens & Interfaces",
+ "film": "Before the Ding",
+ "line": "A cat photo hops across app cards on a sunlit desk, from one phone to a friend's.",
+ "uses": [
+  "App explainers",
+  "Workflows",
+  "Products"
+ ],
+ "frame_sec": 56.85,
+ "dur": 60.0,
+ "demo_source": false
+}

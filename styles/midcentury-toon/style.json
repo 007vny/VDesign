@@ -1,0 +1,16 @@
+{
+ "slug": "midcentury-toon",
+ "num": "55",
+ "en": "Mid-century Cartoon",
+ "category_en": "Cartoons",
+ "film": "Meet Pip",
+ "line": "A robot vacuum set up in three steps, told like a 1950s classroom film.",
+ "uses": [
+  "Set-up guides",
+  "Help centres",
+  "How-to"
+ ],
+ "frame_sec": 3.2,
+ "dur": 40.0,
+ "demo_source": true
+}

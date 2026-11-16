@@ -1,0 +1,23 @@
+{
+ "slug": "couture-editorial",
+ "num": 4,
+ "roman": "IV",
+ "en": "Couture Editorial",
+ "category_en": "Atelier",
+ "line": "A fashion monthly in motion: Didone type, white space, and one picture at a time.",
+ "uses": [
+  "Fashion",
+  "Beauty",
+  "Invitations"
+ ],
+ "base": [
+  "swiss-motion",
+  "spy-titles"
+ ],
+ "palette": [
+  "#f6f2ea",
+  "#111111",
+  "#c8102e"
+ ],
+ "demo_source": false
+}

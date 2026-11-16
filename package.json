@@ -1,0 +1,15 @@
+{
+  "name": "vdesign",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "VDesign: film styles for coding agents, each a prompt on a shared toolkit that renders films entirely in code.",
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "playwright-core": "^1.63.0",
+    "three": "^0.170.0"
+  }
+}

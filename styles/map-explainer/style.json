@@ -1,0 +1,16 @@
+{
+ "slug": "map-explainer",
+ "num": "98",
+ "en": "3D Map Explainer",
+ "category_en": "Data & Maps",
+ "film": "Strait of Hormuz",
+ "line": "From the globe down into the strait a fifth of the world's oil squeezes through: two lanes, a cut through the sea floor, and pipelines that can carry only a fraction of it around.",
+ "uses": [
+  "News and geopolitics",
+  "Energy, trade and shipping",
+  "Rivers, borders and terrain"
+ ],
+ "frame_sec": 13.8,
+ "dur": 52.0,
+ "demo_source": false
+}

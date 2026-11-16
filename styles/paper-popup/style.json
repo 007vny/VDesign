@@ -1,0 +1,16 @@
+{
+ "slug": "paper-popup",
+ "num": "79",
+ "en": "Paper Pop-up Book",
+ "category_en": "3D & Miniature",
+ "film": "Pip's Paper Adventure",
+ "line": "A pop-up book opens on a desk; a sprite named Pip adventures through paper worlds and jumps out into ours.",
+ "uses": [
+  "Children's books",
+  "Game trailers",
+  "Story films"
+ ],
+ "frame_sec": 16.0,
+ "dur": 133.0,
+ "demo_source": false
+}

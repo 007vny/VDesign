@@ -1,0 +1,23 @@
+{
+ "slug": "haute-horlogerie",
+ "num": 2,
+ "roman": "II",
+ "en": "Haute Horlogerie",
+ "category_en": "Atelier",
+ "line": "Inside a mechanical movement: brushed steel, ruby jewels, and a balance wheel that keeps the tempo of the edit.",
+ "uses": [
+  "Watchmaking",
+  "Precision engineering",
+  "Heritage"
+ ],
+ "base": [
+  "precise-mechanism",
+  "glass-product"
+ ],
+ "palette": [
+  "#101214",
+  "#c9ccd1",
+  "#a3122a"
+ ],
+ "demo_source": false
+}

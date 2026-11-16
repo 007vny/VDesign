@@ -1,0 +1,16 @@
+{
+ "slug": "pen-plotter",
+ "num": "50",
+ "en": "Pen Plotter",
+ "category_en": "Line Diagrams",
+ "film": "8848.86",
+ "line": "At night under a desk lamp, a pen plotter draws Mount Qomolangma from real elevation data with four pens, and writes its height last.",
+ "uses": [
+  "Maps and terrain",
+  "Measurements and records",
+  "Generative and data drawings"
+ ],
+ "frame_sec": 18.4,
+ "dur": 49.9,
+ "demo_source": false
+}

@@ -1,0 +1,16 @@
+{
+ "slug": "dark-documentary",
+ "num": "92",
+ "en": "Radar Sweep Documentary",
+ "category_en": "Instruments & Evidence",
+ "film": "Catching the Moon",
+ "line": "A storm at Parkes, 21 July 1969: a 64-metre dish tipped to its limit holds on and catches the moonwalk for the world.",
+ "uses": [
+  "History of science and engineering",
+  "Archaeology, sites and reconstructions",
+  "Astronomy, deep space and survey"
+ ],
+ "frame_sec": 16.0,
+ "dur": 52.0,
+ "demo_source": false
+}

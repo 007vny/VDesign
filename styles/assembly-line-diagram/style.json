@@ -1,0 +1,16 @@
+{
+ "slug": "assembly-line-diagram",
+ "num": "51",
+ "en": "Assembly-Line Diagram",
+ "category_en": "Line Diagrams",
+ "film": "The Disassembly Line",
+ "line": "A body cut open as a factory that runs backwards: a 12:30 sandwich is taken apart station by station, and six hours later it runs for the bus.",
+ "uses": [
+  "How a process works",
+  "Biology and medicine",
+  "Supply chains and pipelines"
+ ],
+ "frame_sec": 8.24,
+ "dur": 54.9,
+ "demo_source": false
+}

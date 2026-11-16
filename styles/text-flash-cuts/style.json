@@ -1,0 +1,19 @@
+{
+ "slug": "text-flash-cuts",
+ "num": "42",
+ "en": "Text Flash Cuts",
+ "category_en": "Graphic & Type",
+ "film": "Behind You",
+ "line": "A letter, a phone call, a wall of windows, thirteen steps: the girl who told him not to look back is always one step closer, until she turns her head.",
+ "uses": [
+  "Suspense & drama trailers",
+  "Title sequences",
+  "Manifesto films"
+ ],
+ "needs": [
+  "image-generation"
+ ],
+ "frame_sec": 38.3,
+ "dur": 46.2,
+ "demo_source": false
+}

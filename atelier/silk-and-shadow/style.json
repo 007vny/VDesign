@@ -1,0 +1,23 @@
+{
+ "slug": "silk-and-shadow",
+ "num": 6,
+ "roman": "VI",
+ "en": "Silk & Shadow",
+ "category_en": "Atelier",
+ "line": "Heavy silk in jewel tones, falling in slow folds under one raking light.",
+ "uses": [
+  "Textiles",
+  "Jewellery",
+  "Title sequences"
+ ],
+ "base": [
+  "glass-product",
+  "stained-glass"
+ ],
+ "palette": [
+  "#0f3d33",
+  "#6d1430",
+  "#d6b36a"
+ ],
+ "demo_source": false
+}

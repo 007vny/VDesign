@@ -1,0 +1,16 @@
+{
+ "slug": "stick-explainer",
+ "num": "18",
+ "en": "Stick-figure Explainer",
+ "category_en": "Sketch & Board",
+ "film": "Six Hands Away",
+ "line": "A chain of hands from you to a stranger: tested with letters in 1967, explained by rings that outgrow the Earth, closed around the globe.",
+ "uses": [
+  "Science explainers",
+  "Networks & social ideas",
+  "Data comparisons"
+ ],
+ "frame_sec": 9.5,
+ "dur": 52.0,
+ "demo_source": false
+}

@@ -1,0 +1,16 @@
+{
+ "slug": "security-xray",
+ "num": "91",
+ "en": "Security X-ray",
+ "category_en": "Instruments & Evidence",
+ "film": "Night Shift at Lane 3",
+ "line": "One night at an airport screening console: a power bank, a bottle of water, and six live crabs that move in the CT.",
+ "uses": [
+  "Airport and customs screening",
+  "Parcel and cargo inspection",
+  "Product internals"
+ ],
+ "frame_sec": 16.6,
+ "dur": 51.9,
+ "demo_source": false
+}

@@ -1,0 +1,19 @@
+{
+ "slug": "manga-panels",
+ "num": "57",
+ "en": "Manga Panels",
+ "category_en": "Cartoons",
+ "film": "KOMA ONE: Thirty Frames a Second",
+ "line": "A street photographer chases a running light to the moment the pigeons rise; her pocket camera splits that second into thirty panels.",
+ "uses": [
+  "Music videos",
+  "Product launches",
+  "Anime openings"
+ ],
+ "needs": [
+  "image-generation"
+ ],
+ "frame_sec": 40.2,
+ "dur": 48.0,
+ "demo_source": false
+}

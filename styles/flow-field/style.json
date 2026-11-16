@@ -1,0 +1,16 @@
+{
+ "slug": "flow-field",
+ "num": "75",
+ "en": "Flow-field Wind Lines",
+ "category_en": "Light & Lines",
+ "film": "Typhoon Yagi over Qiongzhou",
+ "line": "Thousands of ink wind lines, computed from the best track, draw Super Typhoon Yagi: the eye opening over the South China Sea, the landfall on Hainan, the spiral coming apart in Vietnam, and a whole week folded into one last line.",
+ "uses": [
+  "Storms, monsoons and other weather",
+  "Ocean currents and river floods",
+  "Any flow measured against a threshold"
+ ],
+ "frame_sec": 24.9,
+ "dur": 52.0,
+ "demo_source": false
+}

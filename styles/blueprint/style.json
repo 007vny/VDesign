@@ -1,0 +1,16 @@
+{
+ "slug": "blueprint",
+ "num": "44",
+ "en": "Blueprint",
+ "category_en": "Line Diagrams",
+ "film": "Patent Pending: The Cloud Catcher",
+ "line": "An inventor's blueprint draws, explodes and assembles a cloud-catching machine, and its revision cloud starts to rain.",
+ "uses": [
+  "Engineering",
+  "Hardware launches",
+  "Tech explainers"
+ ],
+ "frame_sec": 33.3,
+ "dur": 46.7,
+ "demo_source": true
+}

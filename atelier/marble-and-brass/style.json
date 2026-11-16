@@ -1,0 +1,23 @@
+{
+ "slug": "marble-and-brass",
+ "num": 3,
+ "roman": "III",
+ "en": "Marble & Brass",
+ "category_en": "Atelier",
+ "line": "Veined stone slabs, and brass inlay that draws itself into plans, maps and charts.",
+ "uses": [
+  "Architecture",
+  "Hospitality",
+  "Property"
+ ],
+ "base": [
+  "art-deco",
+  "blueprint"
+ ],
+ "palette": [
+  "#e9e6df",
+  "#1f3b33",
+  "#b8924a"
+ ],
+ "demo_source": false
+}

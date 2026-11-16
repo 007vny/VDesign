@@ -1,0 +1,16 @@
+{
+ "slug": "watercolor",
+ "num": "10",
+ "en": "Watercolor Brush",
+ "category_en": "Painting & Illustration",
+ "film": "Follow the Rain",
+ "line": "Follow the rain from Australia's red desert heart to its green coast in one unbroken painted walk.",
+ "uses": [
+  "Nature documentary",
+  "Travel",
+  "Science explainers"
+ ],
+ "frame_sec": 68.0,
+ "dur": 113.6,
+ "demo_source": false
+}

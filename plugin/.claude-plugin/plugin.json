@@ -1,0 +1,8 @@
+{
+  "name": "vdesign",
+  "description": "Make a film in one of VDesign's code-rendered styles: your agent directs, draws, scores and mixes it.",
+  "author": { "name": "007vny", "url": "https://github.com/007vny" },
+  "homepage": "https://github.com/007vny/VDesign",
+  "repository": "https://github.com/007vny/VDesign",
+  "license": "MIT AND CC-BY-NC-4.0"
+}

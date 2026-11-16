@@ -1,0 +1,16 @@
+{
+ "slug": "thermal-camera",
+ "num": "93",
+ "en": "Thermal Camera",
+ "category_en": "Instruments & Evidence",
+ "film": "A Building on a Winter Night",
+ "line": "A thermal camera circles an old apartment block on a snowy night: a leaking window, pipes inside the walls, a cat asleep on a warm bonnet, and the same block a year after its retrofit.",
+ "uses": [
+  "Building and energy inspection",
+  "Wildlife at night",
+  "Machines and electrics"
+ ],
+ "frame_sec": 1.3,
+ "dur": 49.0,
+ "demo_source": false
+}

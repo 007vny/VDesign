@@ -1,0 +1,16 @@
+{
+ "slug": "flat-space-explainer",
+ "num": "41",
+ "en": "Scale Zoom Explainer",
+ "category_en": "Graphic & Type",
+ "film": "The Long Way Down",
+ "line": "A little probe whose eye is a zoom lens fires a dotted sight line at each next stop and takes us from the Milky Way down to a virus.",
+ "uses": [
+  "Science explainers",
+  "Scale and size",
+  "Classroom"
+ ],
+ "frame_sec": 8.9,
+ "dur": 52.0,
+ "demo_source": false
+}

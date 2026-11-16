@@ -1,0 +1,17 @@
+{
+  "name": "vdesign",
+  "owner": {
+    "name": "007vny",
+    "url": "https://github.com/007vny"
+  },
+  "metadata": {
+    "description": "VDesign: film styles for coding agents."
+  },
+  "plugins": [
+    {
+      "name": "vdesign",
+      "source": "./plugin",
+      "description": "Make a film in one of VDesign's code-rendered styles: your agent directs, draws, scores and mixes it."
+    }
+  ]
+}

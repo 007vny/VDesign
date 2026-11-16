@@ -1,0 +1,16 @@
+{
+ "slug": "bauhaus-shapes",
+ "num": "40",
+ "en": "Bauhaus Shapes",
+ "category_en": "Graphic & Type",
+ "film": "COMPOUND",
+ "line": "One dot doubles every ten years: 128 after seventy, 6.02 without compounding, and the last ten years are worth all the rest.",
+ "uses": [
+  "Finance and economics explainers",
+  "Mechanisms and principles",
+  "Titles and chapter cards"
+ ],
+ "frame_sec": 9.4,
+ "dur": 52.0,
+ "demo_source": false
+}
