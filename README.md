@@ -83,6 +83,19 @@ These are style prompts awaiting their first films: none has a rendered demo yet
 
 98 styles in 15 categories, sorted by what the picture looks like. Every style has a complete `STYLE.md`. 30 also carry the source of a demo film, for the agent to study technique from. A browsable version is in [`docs/index.html`](docs/index.html).
 
+Every style has a plate: one picture, drawn in code, that shows its look. All 98 are in [`docs/plates/`](docs/plates/), and [`tools/plates/`](tools/plates/README.md) is the code that draws them.
+
+<p align="center">
+<a href="styles/art-deco/STYLE.md"><img src="docs/plates/art-deco.jpg" width="24%" alt="art-deco style plate"></a>
+<a href="styles/stained-glass/STYLE.md"><img src="docs/plates/stained-glass.jpg" width="24%" alt="stained-glass style plate"></a>
+<a href="styles/ukiyoe/STYLE.md"><img src="docs/plates/ukiyoe.jpg" width="24%" alt="ukiyoe style plate"></a>
+<a href="styles/neon-tubes/STYLE.md"><img src="docs/plates/neon-tubes.jpg" width="24%" alt="neon-tubes style plate"></a>
+<a href="styles/glass-product/STYLE.md"><img src="docs/plates/glass-product.jpg" width="24%" alt="glass-product style plate"></a>
+<a href="styles/engraving/STYLE.md"><img src="docs/plates/engraving.jpg" width="24%" alt="engraving style plate"></a>
+<a href="styles/tilt-shift/STYLE.md"><img src="docs/plates/tilt-shift.jpg" width="24%" alt="tilt-shift style plate"></a>
+<a href="styles/flow-field/STYLE.md"><img src="docs/plates/flow-field.jpg" width="24%" alt="flow-field style plate"></a>
+</p>
+
 ✦ draws with an image generator you bring · ◇ style prompt only, no demo source here
 
 **01 · Edit & Documentary**  

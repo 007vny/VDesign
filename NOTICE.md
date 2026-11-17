@@ -26,7 +26,7 @@ This is not the official repository and is not endorsed by Lemomo (LemoLab).
 
 **Reworded.** In the style prompts, sentences that set a Chinese line above an English one now speak of a main-language line and an optional second line. Reading-time rules use the Latin rate only, Chinese font examples are replaced with Latin ones (for example Noto Sans for Noto Sans SC), and the passages on drawing Chinese characters by hand in Circuit Board, Neon Tubes, 1-bit Dither and Pen Plotter are removed. Credits for Chinese fonts that no longer appear in anything kept here are removed from the `CREDITS` files.
 
-**Added.** `README.md`, `NOTICE.md`, `SECURITY.md`, the `atelier/` collection, `docs/index.html` (with resized copies of the kept posters in `docs/posters/`), and the skill and plugin texts. `styles/README.md` and the style list in `AGENTS.md` were regenerated in English.
+**Added.** `README.md`, `NOTICE.md`, `SECURITY.md`, the `atelier/` collection, `docs/index.html`, a style plate for every library style in `docs/plates/` with the code that draws them in `tools/plates/`, and the skill and plugin texts. `styles/README.md` and the style list in `AGENTS.md` were regenerated in English.
 
 ## What still comes from the original project
 

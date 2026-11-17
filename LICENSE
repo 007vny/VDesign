@@ -3,7 +3,7 @@ https://github.com/007vny/VDesign
 
 VDesign is adapted from Lemo-Opuscar by Lemomo (LemoLab), https://github.com/lemomo-ai/lemo-opuscar, version 2.0.0. NOTICE.md lists what was changed.
 
-VDesign's own additions are offered on the same terms as the material they sit beside: the Markdown files written for VDesign (README.md, NOTICE.md, SECURITY.md, everything under atelier/, the skill's SKILL.md) under CC BY-NC 4.0, and the code written for VDesign (docs/index.html) under the MIT License. Copyright (c) 2026 VDesign.
+VDesign's own additions are offered on the same terms as the material they sit beside: the Markdown files written for VDesign (README.md, NOTICE.md, SECURITY.md, everything under atelier/, the skill's SKILL.md) under CC BY-NC 4.0, the code written for VDesign (docs/index.html, tools/plates/) under the MIT License, and the style plates drawn for VDesign (docs/plates/) under CC BY 4.0. Copyright (c) 2026 VDesign.
 
 Everything else is the original project's, under the original project's licence, which follows unchanged. Where it names paths that VDesign does not carry (styleboard/, docs/ pictures, the Mascot Screencast style, the films in the original Releases), those rules simply have nothing to apply to here. Where it says "this repository", read the original repository.
 
