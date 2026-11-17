@@ -21,7 +21,7 @@ An Atelier style is used like a library style: its `STYLE.md` is fixed, and the 
 2. **The look is unproven until you render it.** Before any animation, render one style frame with the real drawing code and check it against sections 1 to 3 of the `STYLE.md`. Show that frame to the user and wait for a yes. This is the one extra stop an Atelier film has.
 3. **Offer to keep the result.** When the film is delivered, offer to save the working style to `~/vdesign-my-styles/` (`MY-STYLES.md`), so the next film starts from code instead of from a description.
 
-Tell the user plainly, when they pick one, that these styles are new and have no reference film.
+Tell the user plainly, when they pick one, that these styles are new and have no reference film. Each has a plate in `docs/plates/<folder>.jpg`: a picture drawn in code to show the intended look. Treat it as a mood reference; the `STYLE.md` is what binds.
 
 ## The VDesign finish
 

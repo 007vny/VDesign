@@ -75,6 +75,17 @@ Eight signature styles, written for VDesign. Each is a complete style prompt in 
 | VII | [Gallery White](atelier/gallery-white/STYLE.md) | The museum vitrine: plinths, wall labels, skylight | Collections, craft, product archives |
 | VIII | [Midnight Concours](atelier/midnight-concours/STYLE.md) | A dark studio and light strips sliding over coachwork | Automotive, industrial design, hardware |
 
+<p align="center">
+<a href="atelier/noir-atelier/STYLE.md"><img src="docs/plates/noir-atelier.jpg" width="24%" alt="Noir Atelier style plate"></a>
+<a href="atelier/haute-horlogerie/STYLE.md"><img src="docs/plates/haute-horlogerie.jpg" width="24%" alt="Haute Horlogerie style plate"></a>
+<a href="atelier/marble-and-brass/STYLE.md"><img src="docs/plates/marble-and-brass.jpg" width="24%" alt="Marble & Brass style plate"></a>
+<a href="atelier/couture-editorial/STYLE.md"><img src="docs/plates/couture-editorial.jpg" width="24%" alt="Couture Editorial style plate"></a>
+<a href="atelier/champagne-hour/STYLE.md"><img src="docs/plates/champagne-hour.jpg" width="24%" alt="Champagne Hour style plate"></a>
+<a href="atelier/silk-and-shadow/STYLE.md"><img src="docs/plates/silk-and-shadow.jpg" width="24%" alt="Silk & Shadow style plate"></a>
+<a href="atelier/gallery-white/STYLE.md"><img src="docs/plates/gallery-white.jpg" width="24%" alt="Gallery White style plate"></a>
+<a href="atelier/midnight-concours/STYLE.md"><img src="docs/plates/midnight-concours.jpg" width="24%" alt="Midnight Concours style plate"></a>
+</p>
+
 These are style prompts awaiting their first films: none has a rendered demo yet. The first film you make in one sets its look, and you can keep the result as your own style ([`MY-STYLES.md`](MY-STYLES.md)).
 
 **The VDesign finish.** [`atelier/HOUSE-CODES.md`](atelier/HOUSE-CODES.md) is a short set of rules any film can wear. Add *"with the VDesign finish"* to a request.
@@ -83,7 +94,7 @@ These are style prompts awaiting their first films: none has a rendered demo yet
 
 98 styles in 15 categories, sorted by what the picture looks like. Every style has a complete `STYLE.md`. 30 also carry the source of a demo film, for the agent to study technique from. A browsable version is in [`docs/index.html`](docs/index.html).
 
-Every style has a plate: one picture, drawn in code, that shows its look. All 98 are in [`docs/plates/`](docs/plates/), and [`tools/plates/`](tools/plates/README.md) is the code that draws them.
+Every style has a plate: one picture, drawn in code, that shows its look. All 98, and the eight Atelier plates, are in [`docs/plates/`](docs/plates/), and [`tools/plates/`](tools/plates/README.md) is the code that draws them.
 
 <p align="center">
 <a href="styles/art-deco/STYLE.md"><img src="docs/plates/art-deco.jpg" width="24%" alt="art-deco style plate"></a>
