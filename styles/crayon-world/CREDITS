@@ -1,6 +1,6 @@
-The Butterfly — Crayon World 3D (Lemo-Opuscar)
-Style and demo by 2nd1st (LEOYUN, https://github.com/2nd1st), contributed to Lemo-Opuscar in pull request #17.
-Sign-off in the film: 2nd1st × LemoLab × Claude Opus 5.5.
+The Butterfly — Crayon World 3D
+Style and demo by 2nd1st (LEOYUN, https://github.com/2nd1st).
+Sign-off in the film: Claude Opus 5.5.
 
 IMAGES, FOOTAGE, MODELS
 - None. The world is built from three.js primitives in film.js and redrawn in crayon by code (engine/npr.js, engine/crayon.js,

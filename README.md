@@ -6,7 +6,7 @@
 
 *Choose a style, bring your story, and the agent directs, draws, scores and mixes the film, entirely in code.*
 
-[The Collection](#the-collection) · [The Atelier](#the-atelier) · [Install](#install) · [Provenance](#provenance-and-licence)
+[The Collection](#the-collection) · [The Atelier](#the-atelier) · [Install](#install) · [Licence](#licence)
 
 </div>
 
@@ -167,14 +167,12 @@ The full index, with each style's folder, is [`styles/README.md`](styles/README.
 | [`atelier/`](atelier/README.md) | the signature styles and the VDesign finish |
 | [`MY-STYLES.md`](MY-STYLES.md) | changing a style and keeping it as your own |
 
-## Provenance and licence
-
-VDesign is an adaptation of **[Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab)**, version 2.0.0. The library's styles, guides and toolkit are their work; the Atelier, the house codes, this README and the gallery page are new.
+## Licence
 
 - **Code** (`core/`, demo sources, tools): MIT.
-- **Docs** (every Markdown file, including each `STYLE.md`): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Non-commercial sharing only; upstream offers a commercial licence for the docs.
+- **Docs** (every Markdown file, including each `STYLE.md`): [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Non-commercial sharing only.
 - **Posters and stills**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 - **Third-party material** keeps its own licence; each demo's `CREDITS` names it.
 - **Films you make** with the library are yours, commercial films included.
 
-[`LICENSE`](LICENSE) has the full terms, [`NOTICE.md`](NOTICE.md) lists exactly what was changed, and [`SECURITY.md`](SECURITY.md) records the audit the source went through before it was copied here.
+[`LICENSE`](LICENSE) has the full terms, [`NOTICE.md`](NOTICE.md) has the required third-party notices, and [`SECURITY.md`](SECURITY.md) records the security review of the code.

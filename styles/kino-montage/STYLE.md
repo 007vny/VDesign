@@ -147,6 +147,3 @@ The agent decides per film: structure, which archive and documents, which format
 - Subjects that fit: construction and engineering histories, industrial anniversaries, mass events, labour and collective effort, infrastructure openings, any "many people, one machine rhythm" story with archive film and documents behind it.
 
 Our demo: [DEMO.md](DEMO.md).
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: non-English text removed; the demo source is not included here, so paths under `demo/` refer to the original library.</sub>

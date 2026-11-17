@@ -1,6 +1,6 @@
 # Security review of the source
 
-VDesign was copied from `lemomo-ai/lemo-opuscar` at commit `3a7132b996be0241c1ea0ab180d519f06e6f10b6` on 2026-11-15. Before anything was copied, the checkout (3,840 files) was reviewed as untrusted data: nothing from it was executed, installed or imported.
+VDesign is built on third-party source code (named in `NOTICE.md`), imported on 2026-11-15. Before anything was imported, the checkout (3,840 files) was reviewed as untrusted data: nothing from it was executed, installed or imported.
 
 ## What was checked
 
@@ -30,7 +30,7 @@ The VDesign tree was scanned again with the same checks, and for any remaining C
 
 - **This repository.** The skill's installer keeps `~/vdesign` in step with the `main` branch here. Protect the branch.
 - **npm and PyPI.** `setup.sh deps` installs the two npm packages above (pinned), a headless Chromium through Playwright, and the Python packages in `requirements*.txt` (not pinned to versions).
-- **The original project's release assets.** `tools/fetch.sh` downloads the optional voice model, HDRIs and instrument libraries from the original repository's `assets` release and refuses any file whose SHA-256 differs from `tools/assets.json`.
+- **Third-party release assets.** `tools/fetch.sh` downloads the optional voice model, HDRIs and instrument libraries from the release named in `tools/assets.json` and refuses any file whose SHA-256 differs from `tools/assets.json`.
 - **Font and material hosts.** Some demo `build.sh` scripts fetch open-licence fonts or public-domain material when you rebuild a demo. An agent making your film reads demos; it does not need to run them.
 - **Hugging Face**, for the Whisper model the voice check downloads on first use.
 

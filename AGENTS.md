@@ -43,7 +43,7 @@ If the user hasn't picked a style:
 - Suggest two or three that fit their topic.
 - If they have their own styles, list those first, under "My styles" (in their language).
 - Show them the full list below in the chat. Don't drop, merge or rename anything.
-- Link the gallery, the collection: https://github.com/007vny/VDesign#the-collection (the original demo films play in the upstream gallery, https://lemomo-ai.github.io/lemo-opuscar/)
+- Link the gallery, the collection: https://github.com/007vny/VDesign#the-collection
 - Then ask them to type the name. The list goes in your own message (a command's output isn't shown to them), and the question is plain text, not `AskUserQuestion`: its few options would hide the rest of the list.
 
 <!-- style-list:start -->
@@ -96,6 +96,3 @@ Report progress in the user's language. If a step fails, read the error, fix the
 - Run `node core/…` and `sh tools/…` from the library root (`$LIB` in skill mode).
 - `core/` has ready-made tools (rendering, TTS, speech check, sampler, sfx, mux). Use them or your own stack, but don't edit `core/` or `styles/` for a user's film.
 - Never kill processes you didn't start. Don't leave background processes running.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: renamed, non-English text and tools removed, the original site and release tooling removed, Atelier collection added.</sub>

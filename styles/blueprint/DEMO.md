@@ -107,7 +107,7 @@ Demo motion numbers: exploded parts leave one every ~0.055 of the progress on ei
 
 ## End card
 
-**End card**: the title block. The last row is lettered in: STYLE: BLUEPRINT / DRAWN BY: LemoLab × Claude Opus 5.5. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+**End card**: the title block. The last row is lettered in: STYLE: BLUEPRINT / DRAWN BY: Claude Opus 5.5. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -144,6 +144,3 @@ styles/blueprint/demo/
 - `sfx.thump()` is 0.35 s long: pad before adding to longer buffers.
 - Whisper reads "Figure one" as "Figure 1": use an `asr` field in `lines.json`.
 - **A stray file at the repo root**: always write with absolute paths inside your style dir.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

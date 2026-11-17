@@ -84,7 +84,7 @@ Demo numbers behind the STYLE.md rules: register offset `(6, 4)` px re-rolled at
 
 ## End card
 
-After the lockup, inside the iris circle: film title, style name, `Lemo-Opuscar`, `LemoLab × Claude Opus 5.5`, asset credits. The asset credits name the MuldjordKit drums (CC BY 4.0) and come in a little before the title so they hold 2.5 s. The LemoLab sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+After the lockup, inside the iris circle: film title, style name, `VDesign`, `Claude Opus 5.5`, asset credits. The asset credits name the MuldjordKit drums (CC BY 4.0) and come in a little before the title so they hold 2.5 s. The VDesign sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -187,6 +187,3 @@ for (let i = 0; i < 8; i++) { const a = i * Math.PI / 4 - Math.PI / 2, r = i % 2
 shape(ctx, pts, { fill: '#D97757', line: 4.5, grain: 0.3, breaks: 0.15 });
 sparkle(ctx, 1040, 440, 28, { fill: PAL.white });
 ```
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

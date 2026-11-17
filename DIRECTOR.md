@@ -118,7 +118,7 @@ Render 6–9 key shots with the real drawing code, tiled into one sheet (`core/r
 - Loudness about −14 LUFS; no black frames, no NaN frames; subtitles in sync and not covering key action.
 - Every row of the sound design table is actually in the mix.
 - Every map, globe or satellite view passes section 13, checked enlarged.
-- No VDesign sign-off: `grep -rniE "lemo ?lab|opus 5\.5" <project folder>` finds nothing outside `LICENSE`, `CREDITS` and the library's path in `LIB=` lines, and you have watched the last seconds of the film (text drawn into an image can't be grepped).
+- No VDesign sign-off: `grep -rniE "vdesign|opus 5\.5" <project folder>` finds nothing outside `LICENSE`, `CREDITS` and the library's path in `LIB=` lines, and you have watched the last seconds of the film (text drawn into an image can't be grepped).
 
 **Deliver**, in the project folder (the complete list):
 
@@ -143,6 +143,3 @@ These apply to every frame that shows a map, a globe or satellite imagery, in ev
 - **No borders unless the film is about them.** Draw coastlines, terrain, imagery or streets, without national or provincial borders. Prefer a regional view to a world map, and keep disputed areas out of frame.
 - **Disputed areas**: frame them out, or leave their borders undrawn.
 - **Check and credit.** Before delivery, enlarge every map shot and check it against these rules. `CREDITS` names the map data, its source and its view (for example "Natural Earth 1:50m").
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: renamed, non-English text and tools removed, the original site and release tooling removed.</sub>

@@ -1,5 +1,5 @@
-The Last Night Train · — Paper-cut Lightbox (Lemo-Opuscar demo)
-LemoLab × Claude Opus 5.5
+The Last Night Train · — Paper-cut Lightbox (demo)
+Claude Opus 5.5
 
 Story, picture, score and sound are made in code in this folder. Every paper layer, the train, the stations and the end card
 are drawn by src/ (Canvas2D paper layers + three.js renderer). No photos, footage or generated images are used.

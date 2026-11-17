@@ -71,7 +71,7 @@ Voice: Kokoro `af_heart`, speed 0.86–0.90 (not `bf_emma`, which reads too brig
 
 Title: hand-lettered on the page in two lines in a corner (Gaegu Bold), written on letter by letter while the colours are scribbled in. Subtitles: Patrick Hand 54 px, indigo crayon.
 
-End card: the next page of the book — "The End" (Gaegu Bold), a small crescent doodle, the style name and credit in Patrick Hand. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+End card: the next page of the book — "The End" (Gaegu Bold), a small crescent doodle, the style name and credit in Patrick Hand. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -104,6 +104,3 @@ Pitfalls tied to this demo's props:
 - **A blanket drawn as a flat violet half reads as the moon's dark side.** It needs quilt features: patchwork squares, stitch lines, star appliqués, a light turned-down edge, a draped hem that spills past the disc, and a hand that pulls it up.
 - **Double vignette/emboss at the book transition**: the desk's vignette, emboss and lamp light ramp in from 0.
 - **The heroine disappears into the night** when the wash sinks into her colouring gaps: composite her after the wash.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

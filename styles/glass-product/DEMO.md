@@ -58,7 +58,7 @@ Voice: Kokoro `am_michael`, speed 0.86–0.88, 3–4 very short lines. "Aura." a
 
 ## End card
 
-The title stays; credits (style name, `LemoLab × Claude Opus 5.5`) fade in at the bottom over a soft dark gradient while the camera pulls back to make room; fade to black in the last 0.6 s. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+The title stays; credits (style name, `Claude Opus 5.5`) fade in at the bottom over a soft dark gradient while the camera pulls back to make room; fade to black in the last 0.6 s. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Rights
 
@@ -91,6 +91,3 @@ Pitfalls tied to this demo's props:
 - Hovering earbuds seen straight-on read as mushrooms (turn them 3/4 toward camera); the lid lying flat behind the case reads as a pot lid (stand it at ~100°).
 - Fly the second earbud in from the side: rising "from below", it passes through the visible floor.
 - ASR mishears "Aura." alone (hence "Meet Aura.").
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

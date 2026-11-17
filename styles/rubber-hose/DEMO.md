@@ -62,7 +62,7 @@ Voice: an old radio announcer calling the action like a horse race (Kokoro `bm_l
 
 ## End card
 
-Same sunburst, a wavy-edged sign with "The End", the style name, `LemoLab × Claude Opus 5.5`, small credit lines at the bottom; it opens with an iris from black. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Same sunburst, a wavy-edged sign with "The End", the style name, `Claude Opus 5.5`, small credit lines at the bottom; it opens with an iris from black. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -98,6 +98,3 @@ Pitfalls tied to this demo:
 - `sfx`-style clips of different lengths → numpy broadcast errors. Place clips into a fixed-length buffer (`seq()` in `mix.py`).
 - zsh: `echo =====` fails (`=word` expansion) and `timeout` doesn't exist on macOS.
 - JS: `-x ** 6` is a syntax error; write `-(x ** 6)`.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

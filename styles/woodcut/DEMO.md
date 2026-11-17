@@ -63,7 +63,7 @@ Demo action timings: hammer lean-back 4 frames → strike 2 frames → settle + 
 
 ## End card
 
-Title carved *mirrored* into the block (IM Fell English SC), readable only once the first print is pulled. End card: a fresh print: title carved out of a black panel, a small bell keeping the film's last copper highlight, then *A Woodcut Print*, Lemo-Opuscar, LemoLab × Claude Opus 5.5 and credits in letterpress. The final knife cut under the title echoes the first sound of the film. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Title carved *mirrored* into the block (IM Fell English SC), readable only once the first print is pulled. End card: a fresh print: title carved out of a black panel, a small bell keeping the film's last copper highlight, then *A Woodcut Print*, VDesign, Claude Opus 5.5 and credits in letterpress. The final knife cut under the title echoes the first sound of the film. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -137,6 +137,3 @@ function frame(g, t) {
 ```
 
 **Filter on a photo or film frame** (for re-drawing footage): `const F = WC.woodcutFilter(video, { rect: [36, 36, 1848, 912], sp: 5, reveal: { t0, t1, mode: 'light' } }); m.fillStyle = '#000'; m.fillRect(…); WC.drawStrokes(m, F.strokes, { t });` then print. About 1,900 cuts and 140 ms for a 1080p frame. See `demo/stills/frame_filter.jpg` and `?test=filter&img=…`. For a moving shot, re-run it on twos (12 fps) with the same `seed` so the cuts stay stable where the image does.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

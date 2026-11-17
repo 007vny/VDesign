@@ -82,7 +82,7 @@ Voice: Kokoro `bf_alice`, speed .86–.88, "like a nun telling an old story", 8 
 
 ## End card
 
-The carved inscription on the stone string course changes from *THE DRAGON OF THE EAST WINDOW* to *STAINED GLASS* and *LEMOLAB × CLAUDE OPUS 5.5* (Cinzel 600, incised and gilded, revealed by the sweep light); the camera pushes in so the credit line is ≥ 30 px, and a thin blue dawn ray touches pane I. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+The carved inscription on the stone string course changes from *THE DRAGON OF THE EAST WINDOW* to *STAINED GLASS* and *CLAUDE OPUS 5.5* (Cinzel 600, incised and gilded, revealed by the sweep light); the camera pushes in so the credit line is ≥ 30 px, and a thin blue dawn ray touches pane I. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Rights
 
@@ -111,6 +111,3 @@ Pitfalls tied to this demo's props:
 - The turning-point reveal is unreadable when the knight fills the frame and the lancet edge cuts the dragon: stage it at the final zoom (see Shots).
 - The carved end card at night is unreadable in the wide shot: push in and park the sweep light on the text.
 - Give lines and the end card their reading time even if the film runs long (56.5 s here): L6 starts at 38.3 s so it doesn't collide with L5's reading time, and the end card has its push-in so the credit stays legible.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

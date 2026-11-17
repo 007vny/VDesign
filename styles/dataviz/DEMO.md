@@ -61,7 +61,7 @@ Motion numbers: 90 BPM (chosen because a 1/32 note is exactly 2 frames at 24 fps
 
 ## End card
 
-Inside the dashed "next cell": title, `DATA STORYTELLING`, a miniature of the stripes plus an empty dashed cell, `Lemo-Opuscar · LemoLab × Claude Opus 5.5`, data, font, voice and music credits (including "2026 value preliminary, retrieved 2026-09-26"), and a handwritten "Her story is fiction. Every number is real." The LemoLab sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Inside the dashed "next cell": title, `DATA STORYTELLING`, a miniature of the stripes plus an empty dashed cell, `Claude Opus 5.5`, data, font, voice and music credits (including "2026 value preliminary, retrieved 2026-09-26"), and a handwritten "Her story is fiction. Every number is real." The VDesign sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -118,6 +118,3 @@ E.handText(g, 'the spark, in pencil', 120, -210, { size: 34, color: E.P.blue });
 const tip = E.w2s(cam, 150, 0);
 E.drawPencil(g, { tip, s: .8, lift: .2, flip: 0 });                        // flip: 1 = red end
 ```
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

@@ -52,7 +52,7 @@ All four page tools take `--size WxH` (default `1920x1080`, even numbers) and `-
 | `.venv/bin/python core/tts/tts.py lines.json out_dir` | Kokoro, offline. `lines.json` = `[{id, text, voice?, speed?, lang?}]` (defaults `af_bella`, `0.92`, `en-us`). Writes `<id>.wav` (24 kHz, trimmed) and `dur.json`. Needs a library path under 160 bytes (espeak-ng); it checks |
 | `.venv/bin/python core/tts/asr_check.py lines.json voices_dir [--lang en] [--model base]` | speech-to-text check of every `<id>.wav`; writes `words.json` (word timestamps). Lines must match word for word (0–999 count the same as their words). An `asr` field in a line overrides the expected text (names, decimals and times: write it as Whisper does) |
 | `core/audio/sfx.py` | procedural foley and mix helpers: filters, envelopes, `click`, `whoosh`, `thump`, `ding`…, `compress`, `limit`, `add(buf, sound, at, gain, pan)` |
-| `core/audio/sampler.py`, `core/audio/pluck.py` | sampled instruments and plucked-string modelling ([`audio/INSTRUMENTS.md`](audio/INSTRUMENTS.md)). The sample libraries a score needs are downloaded when it is rendered, all missing ones at once (`LEMO_FETCH=0`: only name the `fetch.sh instruments <lib>` commands). `.venv/bin/python core/audio/sampler.py --need <mix.py | names>` fetches them up front, before a long render (it also runs from a plain `python3`). `credits(names)` writes the CREDITS lines |
+| `core/audio/sampler.py`, `core/audio/pluck.py` | sampled instruments and plucked-string modelling ([`audio/INSTRUMENTS.md`](audio/INSTRUMENTS.md)). The sample libraries a score needs are downloaded when it is rendered, all missing ones at once (`VDESIGN_FETCH=0`: only name the `fetch.sh instruments <lib>` commands). `.venv/bin/python core/audio/sampler.py --need <mix.py | names>` fetches them up front, before a long render (it also runs from a plain `python3`). `credits(names)` writes the CREDITS lines |
 
 ## Picture helpers
 
@@ -84,10 +84,10 @@ The styles marked ✦ in the style list (`"needs": ["image-generation"]` in thei
 |---|---|
 | `VDESIGN_HOME` | where `setup.sh` keeps the library (default `~/vdesign`) |
 | `PLAYWRIGHT_CHROME` | a Chrome / headless-shell executable instead of Playwright's |
-| `LEMO_ANGLE` | WebGL backend (default `metal` on macOS; `default` passes none). A virtualised adapter (most cloud VMs and CI runners) creates the demo's context and then drops it, so WebGL styles draw nothing: `LEMO_ANGLE=swiftshader` asks for software rendering up front and renders them, slowly |
+| `VDESIGN_ANGLE` | WebGL backend (default `metal` on macOS; `default` passes none). A virtualised adapter (most cloud VMs and CI runners) creates the demo's context and then drops it, so WebGL styles draw nothing: `VDESIGN_ANGLE=swiftshader` asks for software rendering up front and renders them, slowly |
 | `RENDER_SLOTS` | optional; limits concurrent full renders across processes |
-| `LEMO_FETCH=0` | `sampler.py` doesn't download missing sample libraries; it stops and names the `fetch.sh` commands |
-| `LEMO_COLOR=bt709` | `mux.sh` writes limited-range BT.709 instead of the default full-range output |
+| `VDESIGN_FETCH=0` | `sampler.py` doesn't download missing sample libraries; it stops and names the `fetch.sh` commands |
+| `VDESIGN_COLOR=bt709` | `mux.sh` writes limited-range BT.709 instead of the default full-range output |
 | `WHISPER_MODEL` | Whisper model name or local folder for `asr_check.py` (same as `--model`; default `base.en` for English, `small` otherwise) |
 | `HF_ENDPOINT` | Hugging Face mirror for the Whisper download |
 
@@ -100,6 +100,3 @@ The styles marked ✦ in the style list (`"needs": ["image-generation"]` in thei
 | `mux.sh` | film written | any failure | – |
 | `tts.py`, `srt.py` | done | bad input, missing model, path too long | usage |
 | `asr_check.py` | all lines pass | mismatches | model failed to load |
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: renamed, non-English text and tools removed.</sub>

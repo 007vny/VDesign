@@ -86,7 +86,7 @@ There is no score. The sound design as built for the demo:
 
 ## End card
 
-Black, bitmap-font title, style name, `LemoLab × Claude Opus 5.5`. This sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Black, bitmap-font title, style name, `Claude Opus 5.5`. This sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -120,6 +120,3 @@ styles/backrooms/demo/
 - Heavy PA reverb destroys intelligibility; check every processed line with whisper and the full mix too.
 - Time-compressing a finished timeline: write keyframes in "original" time and map them through one piecewise-linear warp `W()`; remember to warp any hard-coded times elsewhere.
 - VHS noise makes files big: CRF 24 → ~47 MB for 60 s.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

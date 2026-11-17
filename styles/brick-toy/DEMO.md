@@ -48,7 +48,7 @@ Voice: warm British storyteller, Kokoro `bm_george`, speed ~0.9, 4–6 short lin
 
 ## End card
 
-The darkened final wide, the title (Fredoka 700), a brick icon, "BRICK TOY · LEMO-OPUSCAR" in yellow, the "LemoLab × Claude Opus 5.5" line and the asset credits. That sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card (remove the line drawn in `main.js` if you adapt it).
+The darkened final wide, the title (Fredoka 700), a brick icon, "BRICK TOY · VDESIGN" in yellow, the "Claude Opus 5.5" line and the asset credits. That sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card (remove the line drawn in `main.js` if you adapt it).
 
 ## Build notes
 
@@ -72,6 +72,3 @@ Pitfalls tied to this demo's props:
 - Keep props such as the desk lamp off the camera axis of later shots, or they sneak into the background.
 - Move the camera on ones: stepping it at 12 fps like the animation looks unsmooth.
 - Keep spare-parts piles away from the frame edges, where they block the lens.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

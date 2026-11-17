@@ -80,9 +80,9 @@ Every shot change is a UI expand / collapse; no fades, no blank frames.
 
 ## End card
 
-**Title card** = the cursor typing the film title in the close-up, with a small mono overline `TIDY · A LAUNCH FILM`. **End card** = the typed tagline plus, left-aligned beneath it: film title, "a launch film for Tidy, a fictional app", style name, `Lemo-Opuscar`, `LemoLab × Claude Opus 5.5`, credits. Then everything fades except the cursor, which blinks twice and goes out.
+**Title card** = the cursor typing the film title in the close-up, with a small mono overline `TIDY · A LAUNCH FILM`. **End card** = the typed tagline plus, left-aligned beneath it: film title, "a launch film for Tidy, a fictional app", style name, `VDesign`, `Claude Opus 5.5`, credits. Then everything fades except the cursor, which blinks twice and goes out.
 
-The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Rights
 
@@ -151,6 +151,3 @@ E.litShape(g, card, { sweep: 0.5, bbox: [300, 200, 420, 160] });   // any shape 
 E.vignette(g);
 ```
 Render it with `?scene=engineDemo` (see `frames.js`). To keep a single element in colour in an otherwise neutral frame, draw everything with default `litShape` and only that element with `{accent: true}`.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

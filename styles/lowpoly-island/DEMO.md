@@ -58,7 +58,7 @@ Camera settings used: azimuth 45° by default, elevation **30°** (build), **33�
 
 ## End card
 
-The night scale-reveal frame, darkened; the same title block (static), hex icon, `LOW-POLY ISLAND · LEMO-OPUSCAR`, `LemoLab × Claude Opus 5.5`, credits, laid out so the tiny lit island stays visible in a gap between the text blocks. The "LemoLab × Claude Opus 5.5" sign-off (and the LEMO-OPUSCAR line) belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+The night scale-reveal frame, darkened; the same title block (static), hex icon, `LOW-POLY ISLAND · VDESIGN`, `Claude Opus 5.5`, credits, laid out so the tiny lit island stays visible in a gap between the text blocks. The "Claude Opus 5.5" sign-off (and the VDESIGN line) belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -85,6 +85,3 @@ Pitfalls tied to this demo's props:
 - An invisible glow sprite becomes a black parallelogram floating on the sea in the GTAO pass.
 - Derive the boat's position from the beam's angular speed so the beam finds it on a chosen beat, in frame (a rest in the melody, so the boat's answering bell fills the gap): at 21 units out it is off-screen when the beam finds it.
 - Don't let the sea receive shadows: at low sun they make a long dark stain.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

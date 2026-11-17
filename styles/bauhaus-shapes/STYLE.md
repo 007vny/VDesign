@@ -104,6 +104,3 @@ Our demo opens on *the snowball* with the title built on the grid, turns on *the
 - Still layouts work as well (title, mechanism, data): `demo/index.html?frame=1|2|3`.
 
 Our demo, its story and build: [DEMO.md](DEMO.md)
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: non-English text removed; the demo source is not included here, so paths under `demo/` refer to the original library.</sub>

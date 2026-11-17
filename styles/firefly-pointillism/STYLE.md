@@ -115,6 +115,3 @@ A numpy/scipy renderer, no browser: `engine.py` (rig, occlusion, text sampling, 
 - **Narration**: optional; when the story rests on a rule or a feeling the dots can't draw, a few short lines carry it.
 
 See [`DEMO.md`](DEMO.md) for our demo film and how it was built.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: non-English text removed; the demo source is not included here, so paths under `demo/` refer to the original library.</sub>

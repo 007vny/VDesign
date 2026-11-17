@@ -106,7 +106,7 @@ The form is a trio-sonata texture: the grammar of engraving, then colour. Times 
 
 ## End card
 
-The title is part of the plate (engraved, not a separate card). End card: a translucent tissue guard falls over the plate; on it, engraved: film title, style name, `LEMO-OPUSCAR`, `LemoLab × Claude Opus 5.5`, three credit lines. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+The title is part of the plate (engraved, not a separate card). End card: a translucent tissue guard falls over the plate; on it, engraved: film title, style name, `VDESIGN`, `Claude Opus 5.5`, three credit lines. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -210,6 +210,3 @@ Main functions:
 | `Copper.drawCopper / copperLight / drawGrooves / drawBurin / drawSwarf` | the copper close-up | `zoom, lift, skew, s` |
 
 A minimal runnable example of the whole thing is `demo/film.js` with `content_alt.json` (a different subject, two details).
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

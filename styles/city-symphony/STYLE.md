@@ -138,6 +138,3 @@ Recipe for another place: one single-camera time-lapse of ≥ 12 hours (the cloc
 - Fixed: footage only, the frame-blended light, cuts on the beat, the brake, few words, one quote, the hard stop, the release-print grade.
 
 See [`DEMO.md`](DEMO.md) for the example film.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: non-English text removed; the demo source is not included here, so paths under `demo/` refer to the original library.</sub>

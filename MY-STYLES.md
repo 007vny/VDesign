@@ -137,6 +137,3 @@ Only a kept style is theirs: listed when the skill starts, and found by name.
 - **Not right yet**: change `STYLE.md` and `CHANGES.md`, then render the style frame and the demo film again and replace `demo/` and `DEMO.md`. Change only what the user asks.
 - **Using it**: find it through `~/vdesign-my-styles/README.md`. Read its `STYLE.md` in place of a library `STYLE.md` and follow the normal workflow in `AGENTS.md`, treatment first, at the style's default size unless the user asks for another. For techniques, read the style's own `DEMO.md` and `demo/` first, then the base's (`$LIB/styles/<based_on>/DEMO.md`). The demo film is one example: never reuse its story, shots or timeline. The films are the user's: no VDesign credit, no watermark.
 - **After a library update**: if the base `STYLE.md` changed since `library_version`, mention it once and offer to bring the useful fixes into their copy. Don't change their style without asking.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: renamed, non-English text and tools removed, the original site and release tooling removed.</sub>

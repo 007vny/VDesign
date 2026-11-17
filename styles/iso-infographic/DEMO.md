@@ -104,7 +104,7 @@ Frame so the subject is at least 1/3 of the frame height at key moments (the han
 
 - **The subtitle is a map label.** A cream `#FBF4E6` card with 10 px radius and a 2 px ink border, a tiny coffee-red iso cube as the legend chip, Jost 500 at 42 px in ink. It sits bottom-centre, 64 px from the bottom edge. The border draws in first (0.2 s) and the text wipes left to right; on exit it slides down 8 px and fades.
 - Hold each line ≥ max(1.8 s, speech + 0.6 s). Lines never overlap each other, the title or the end card.
-- **End card = the map's legend**, shown in the empty cream corner: title, style name, total with the Isotype bar, "Lemo-Opuscar · LemoLab × Claude Opus 5.5", credits. "NOT TO SCALE" is honest and a small joke. The "Lemo-Opuscar · LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only: a user's film carries no LemoLab credit and no copy of this card.
+- **End card = the map's legend**, shown in the empty cream corner: title, style name, total with the Isotype bar, "Claude Opus 5.5", credits. "NOT TO SCALE" is honest and a small joke. The "Claude Opus 5.5" sign-off belongs to this library's demo only: a user's film carries no VDesign credit and no copy of this card.
 
 ## Pitfalls
 
@@ -175,6 +175,3 @@ iso.desat = 0;          // set 1 to grey everything except the spark (focus + co
 iso.flush();
 pin(iso, 0, -1, 7.6, { title: 'ANY SHAPE', num: '#D97757', dir: 1, up: 90, a: 1 });
 ```
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

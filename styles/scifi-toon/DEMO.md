@@ -65,7 +65,7 @@ Ways to turn other topics into an errand (for reference only):
 ## Titles & end card
 
 - Title: a 1950s atomic-age TV title: chunky block letters (Bungee) in cream with a hard magenta offset shadow and thick ink outline, wrapped by a tilted cyan orbit ring with a coffee bean flying around it and a few twinkling four-point stars; popped in on 12 fps steps on the music downbeat.
-- End card: dark purple, a slow dimmed portal, title, style name in the terminal font, "LemoLab × Claude Opus 5.5", credits; a tiny post-credits gag in the portal. This sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+- End card: dark purple, a slow dimmed portal, title, style name in the terminal font, "Claude Opus 5.5", credits; a tiny post-credits gag in the portal. This sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -92,6 +92,3 @@ Pitfalls tied to this demo:
 - Kokoro + whisper: the name "Pim" in a deep voice is heard as "Pam"; "Gary" passes. "b-broken" is heard as "be broken"; write "buh, buh-broken", "Wh, wh, why". "decaf" comes out "D-cuff"; write "dee-caf".
 - A springy portal (lib `spring`) overshoots to ~135 % and swallows the actors.
 - Creatures placed behind the shop counter vanish: place them so face and upper body show.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

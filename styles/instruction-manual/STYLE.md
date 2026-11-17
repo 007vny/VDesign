@@ -141,6 +141,3 @@ The agent decides the object, how many steps, which steps are told and which are
 ---
 
 How our demo was made (story, shots, score, end card, build): [DEMO.md](DEMO.md). Read it after your treatment exists.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: non-English text removed; the demo source is not included here, so paths under `demo/` refer to the original library.</sub>

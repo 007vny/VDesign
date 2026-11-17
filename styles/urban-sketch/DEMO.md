@@ -75,7 +75,7 @@ No subtitles are needed. All text is **handwriting on the page**, written on wit
 
 The text stays in the world and moves with the camera, never as an overlay.
 
-End card (`demo/film.js`, `notes()`): the title "Where the wind went." written in Caveat 500 at 190 px in the lower-left margin, about 120 px in from the edge (28.2–29.5 s), then the colophon in the same column: "Urban Sketch · Pen & Wash — a Lemo-Opuscar style" (29.6–30.2 s), "LemoLab × Claude Opus 5.5" in Caveat 600 (29.9–30.4 s), and the music, sample and font credits (30.2–30.9 s). The picture runs 1 s past the score (33.4 s) so the last line holds 2.5 s. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card (take those `handwrite()` lines out when reusing the code).
+End card (`demo/film.js`, `notes()`): the title "Where the wind went." written in Caveat 500 at 190 px in the lower-left margin, about 120 px in from the edge (28.2–29.5 s), then the colophon in the same column: "Urban Sketch · Pen & Wash — a VDesign style" (29.6–30.2 s), "Claude Opus 5.5" in Caveat 600 (29.9–30.4 s), and the music, sample and font credits (30.2–30.9 s). The picture runs 1 s past the score (33.4 s) so the last line holds 2.5 s. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card (take those `handwrite()` lines out when reusing the code).
 
 ## Build notes
 
@@ -129,6 +129,3 @@ const star = sparkle(960, 540, 120, .24);                       // 4-point star 
 sketchShape(ctx, star, hex('#D97757'), { ink: 3, wash: .7, offset: 3, seed: 7 });
 drawPen(ctx, penStroke([[1040, 610], [1180, 640], [1300, 646]], { w: 3, wob: 1.2, over: 6, seed: 8 }), 1);   // the tail
 ```
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

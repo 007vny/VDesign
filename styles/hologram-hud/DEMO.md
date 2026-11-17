@@ -56,7 +56,7 @@ Motion numbers: the target box starts at 1.9× the rest-pose bounding box, at 30
 
 ## End card
 
-After the lockup: film title, SCI-FI HOLOGRAM HUD, Lemo-Opuscar, LemoLab × Claude Opus 5.5 and credits, each line rolling in. The LemoLab sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+After the lockup: film title, SCI-FI HOLOGRAM HUD, VDesign, Claude Opus 5.5 and credits, each line rolling in. The VDesign sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -176,6 +176,3 @@ U.targetBox(ctx, T, info.bbox.star, 1, { tag: 'TGT 01 · LOCK' });
       ] } ] }
 ```
 Rules: every piece must physically touch its neighbour. Tubes are rings plus longitudinal lines. Keep the total around 5k vertices / 6k edges for fast renders. Give the part that carries the key number a `hot` inner piece and a shell that slides *along its own axis*.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

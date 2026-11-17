@@ -22,6 +22,3 @@ What changes in skill mode:
 | Demo source | not downloaded. `sh "<skill base directory>/scripts/setup.sh" demo <slug>`, only after your `TREATMENT.md` is written, to read its techniques; it is not meant to be rendered. Styles marked ◇ in `$LIB/styles/README.md` have no demo source: use the nearest style that has one |
 
 Deliver what `$LIB/DIRECTOR.md` §11 lists, in the project folder, and tell the user where it is.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: renamed, Chinese-language content removed, Atelier collection added.</sub>

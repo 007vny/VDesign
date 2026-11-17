@@ -54,7 +54,7 @@ Voice: relaxed American male, Kokoro `am_adam`, speed 0.9–0.95, 5–6 short li
 
 - Subtitles: a green `#0f5e3c` rounded road-sign panel with an inset white keyline, Overpass 600 44 px white, a tiny traffic-light icon lit green on the left, 118 px above the bottom inside the lower blur band.
 - Time-lapse clock top-left (Overpass Mono): `07:12` with small seconds, `×24 TIME-LAPSE` in amber, `×1 REAL TIME` in green.
-- End card: the same road-sign language over the top-down town: the title, the style name and `LemoLab × Claude Opus 5.5`. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+- End card: the same road-sign language over the top-down town: the title, the style name and `Claude Opus 5.5`. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -82,6 +82,3 @@ Pitfalls tied to this demo's props:
 - Don't shoot the peak from a high long-lens view: the ducks are only 1/15 of the frame. Put the headlights on the car's top front edge so they read from above, and hold the hero car until the rising camera lifts clear of it.
 - Clouds can wash out the ending and streetlight pools can read as bubbles; keep street furniture out of the close-up area.
 - One fixed sun leaves half the film backlit and grey. Dawn needs the pink east fill and few lit windows (~9 %); about three times as many reads as midnight.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

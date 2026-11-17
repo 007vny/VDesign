@@ -78,7 +78,7 @@ Palette-knife scrapes sit on every repaint.
 
 ## End card
 
-Knife-painted title on deep ultramarine, a red dot (an umbrella from above), and crisp DOM text for the credits (small text must stay legible): "an impasto palette-knife study", then "Lemo-Opuscar · LemoLab × Claude Opus 5.5", then the sample and font credits. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card (the line lives in `demo/film.js`: remove it if you adapt that file).
+Knife-painted title on deep ultramarine, a red dot (an umbrella from above), and crisp DOM text for the credits (small text must stay legible): "an impasto palette-knife study", then "Claude Opus 5.5", then the sample and font credits. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card (the line lives in `demo/film.js`: remove it if you adapt that file).
 
 ## Build notes
 
@@ -121,6 +121,3 @@ Pitfalls tied to this demo's props:
 | `new Ref(w, h, scale)` + `.fill(path, fill, props)` / `.line` / `.text` / `.tint` | reference illustration; props `{dir, maxR, detail, group, type, hgt, jit, len, wid, aj, fallback}` |
 | `paintRef(ref, {R:[radii], T, rev(x,y), app(x,y,level)})` | coarse→fine knife strokes confined to shape groups |
 | `strokePath(out, pts, {wid, c, type, step})` | strokes along a polyline |
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>

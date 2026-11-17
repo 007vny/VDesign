@@ -30,7 +30,7 @@ Some styles need packages of their own (a LiDAR reader, a slide-scan decoder, a 
 
 The styles marked ✦ also draw with an image generator, which the library doesn't include and you don't install: the user's own Codex CLI, signed in (`core/image/gen_image.py`), or another image tool they have. Their prompts go to that service (core/README.md, "Image generation").
 
-A synthesized score needs no big download. A sampled one needs the libraries its instruments live in: `sampler.py` downloads the missing ones itself, all at once, when the score is rendered (`LEMO_FETCH=0` turns that off and prints the `fetch.sh` commands instead). Put `"$LIB/.venv/bin/python" core/audio/sampler.py --need <your mix.py>` at the top of a `build.sh`, so they arrive before the long picture render, not after it. A pack needs about twice its size free while it unpacks. Downloads come from npm, PyPI, GitHub Releases and Hugging Face (`HF_ENDPOINT` sets a mirror).
+A synthesized score needs no big download. A sampled one needs the libraries its instruments live in: `sampler.py` downloads the missing ones itself, all at once, when the score is rendered (`VDESIGN_FETCH=0` turns that off and prints the `fetch.sh` commands instead). Put `"$LIB/.venv/bin/python" core/audio/sampler.py --need <your mix.py>` at the top of a `build.sh`, so they arrive before the long picture render, not after it. A pack needs about twice its size free while it unpacks. Downloads come from npm, PyPI, GitHub Releases and Hugging Face (`HF_ENDPOINT` sets a mirror).
 
 ## 2. The picture is a function of time
 
@@ -161,6 +161,3 @@ Fonts: Google Fonts (OFL), self-hosted in the project. The typefaces a `STYLE.md
 | a CRT or VHS look | `core/post/crt.js`, `styles/ascii-crt/`, `styles/backrooms/` |
 
 Each style's `DEMO.md` says how its demo was built. Open it and the code only after your treatment exists, to learn a technique, never to rebuild our film (an Edit & Documentary style's material tools in `demo/tools/` come first: AGENTS.md, "Treatment first"). In skill mode, get the source with `sh <skill folder>/scripts/setup.sh demo <slug>`. Copied demo code often reaches the library with `../..`: replace that with `$LIB` or absolute URLs.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: renamed, non-English text and tools removed, the original site and release tooling removed.</sub>

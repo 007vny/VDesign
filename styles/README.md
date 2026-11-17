@@ -176,7 +176,3 @@ Find the style here, then read `styles/<folder>/STYLE.md`. People may name a sty
 | Transit Map | [`transit-map`](transit-map/STYLE.md) | *6 Kilometres* | ◇ |  |
 | 3D Map Explainer | [`map-explainer`](map-explainer/STYLE.md) | *Strait of Hormuz* | ◇ |  |
 | Blob Simulation | [`pip-simulation`](pip-simulation/STYLE.md) | *Is Faster Better?* | ◇ |  |
-
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: regenerated in English for the styles kept here.</sub>

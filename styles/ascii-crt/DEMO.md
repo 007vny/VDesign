@@ -83,7 +83,7 @@ Why this route, for this story: the title typed as a file the machine opens made
 
 ## End card
 
-Typed over the final room shot (`ASCII / CRT TERMINAL`, `LemoLab × Claude Opus 5.5`), followed by the CRT power-off. The "LemoLab × Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no LemoLab credit and no copy of this card.
+Typed over the final room shot (`ASCII / CRT TERMINAL`, `Claude Opus 5.5`), followed by the CRT power-off. The "Claude Opus 5.5" sign-off belongs to this library's demo only; a user's film carries no VDesign credit and no copy of this card.
 
 ## Build notes
 
@@ -108,6 +108,3 @@ Pitfalls tied to this demo's props:
 - **Earth letters rising through the still-visible sentence look messy.** Send them all behind the horizon first, then rise.
 - **The thick (stroked) atlas glyph closes the gaps of `M`.** For the fractal mask, sample a separate *thin* (fill-only) glyph bitmap.
 - **Lazily built data**: build the particle schedule before the foley pass, or the fall's foley is silent.
-
----
-<sub>Adapted from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar) by Lemomo (LemoLab), [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Changed for VDesign: paths renamed.</sub>
